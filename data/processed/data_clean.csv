@@ -1,0 +1,476 @@
+id,session,sid,context,state,answer,stateC,answerC,appxC,Precision,Accuracy,Info lack,Misinfo,Safe,H needs,Context,S ease,H ease,Habit,Sound,Other,motive
+1008,1,8,police,at 8:30,8.30 am,0,0,0,,,,,,,,,,,,0,Because it happened in the morning and I looked at the time when the accident occured.
+1009,1,9,police,at 8:28,around half 8,2,10,around,x,,,,,,,x,,,,,I suppose using the traditional clock format I find it easier to round the time to the nearest number instead of saying the exact time. If I looked at a digital watch or my phone I'd more likely give an exact time saying eight twenty-eight instead.
+1010,1,10,police,at 8:34,Just before twenty five to nine,4,15,just before/after,,,,,,,,,,,x,,Sounds more organic
+1011,1,11,police,8:26-8:34,25 past to 25 to 8,8,9,0,,,,,,,,,,,,0,Because it was the general range it happened at.
+1012,1,12,neighbor,at 8:30,08:30,0,0,0,,,,,,,,,,,,0,"it was the truth, thats what time i witnessed the accident"
+1013,1,13,neighbor,at 8:32,half 8,2,0,0,,x,,,,,x,,,,,,"During an informal conversation it wasn't required to be accurate, 8:30 is close enough"
+1015,1,15,neighbor,8:26-8:34,"around 8.30 am, give or take 4 minutes.",8,18,around,x,,,,,,,,,,,0,"I think it gave the general time initially , and then it was more precise about the range after that."
+1016,1,16,police,at 8:30,8.30am,0,0,0,,,,,,,,,,,,0,it was in the morning
+1018,1,18,police,at 8:34,around 8:35,4,15,around,x,,,,,,,,,,,0,I quickly glanced at the clock and saw the approximate time and gave it to the police.
+1019,1,19,police,8:26-8:34,8:25-35,8,9,0,,,x,,x,,,,,,,,because it was safe answer and I'm not sure about hour
+1020,1,20,neighbor,at 8:30,half eight,0,0,0,,,,,,,,,,,,0,Because thats the time it happened
+1021,1,21,neighbor,at 8:28,8.27,2,2,0,,x,,,,,,,,,,,Because I misread the clock. I also wanted to be as accurate as possible (but obviously wasn't)
+1022,1,22,neighbor,at 8:34,25 to 9,4,5,0,,,,,,,,x,,,,,easier to explain
+1023,1,23,neighbor,8:26-8:34,8.30,8,0,0,,,,,,,,,,,,0,its the middle range
+1024,1,24,police,at 8:30,8.30,0,0,0,,,,,,,,,,,,0,this was how I was asked to answer the question
+1025,1,25,police,at 8:32,8:32,2,2,0,,,,,,,x,,,,,,"If you are a witness to something, such as an accident, it is important to know the location and time, in the event you have to talk to the police."
+1026,1,26,police,at 8:34,8.34 am,4,4,0,x,,,,,,x,,,,,,"I think because it was formal. In an informal situation I might have said aroun twenty five to nine. with it being a police investigation, if I remembered the exact time I would tell them when giving a statement"
+1029,1,29,neighbor,at 8:28,eight thirty in the morning,2,0,0,x,,,,,,x,,,,x,,To say 8:28 is more specific than is appropriate for a friend as it's just to share the general sense of what happens. If it was an insurance adjuster or something I would be more specific.  It would make me sound strange not to round to nearest 15 minute increment
+1030,1,30,neighbor,at 8:26,8.25 ish,4,15,ish,,,,,,,,,,,,X,
+1032,1,32,police,at 8:30,8.30,0,0,0,x,,,,,,,x,,,,,The most precise and easiest way to answer.
+1033,1,33,police,at 8:28,8:28,2,2,0,,,,,,x,,,,,,,There's just no need to say anything more.
+1034,1,34,police,at 8:26,8:25,4,5,0,,,,,,,,,,,,0,It was either 8:30 or 8:25. The accident happened at 8:26 so rounded of to the nearest decimal.
+1035,1,35,police,8:26-8:34,between 8:25 and 8:35,8,9,0,,,,,,,,x,,,,,"It was easier to provide a time given in 5 minute formats, an estimation of the time."
+1036,1,36,neighbor,at 8:30,half-past 8,0,0,0,,,,,,,,,,x,,,This is the way that I would normally talk if I was asked this question IRL
+1037,1,37,neighbor,at 8:32,8:32am,2,2,0,x,,,,,,,,,,, ,That was the exact time the accident happened
+1038,1,38,neighbor,at 8:34,8:34,4,4,0,,,,,,,,,,,,0,because the time on the left said 8:34
+1039,1,39,neighbor,8:26-8:34,around eight thirty,8,10,around,,,x,,,,,,,,, ,chose the median between the times i could remember
+1040,1,40,police,at 8:30,08:30,0,0,0,,x,,,,,,,,,,,It's the 24 hour clock which is the most accurate way to explain a time.
+1041,1,41,police,at 8:28,8.28,2,2,0,,,,,,,,,,,,0,because i looked at my watch when it happened
+1042,1,42,police,at 8:26,8.26,4,4,0,,x,,,,,,,,,,0,because that was the correct time
+1043,1,43,police,8:26-8:34,8:30,8,0,0,,,,,,,,,,,,0,it was half way between the two times
+1045,1,45,neighbor,at 8:28,8:28,2,2,0,,,,,,,,,,,,0,Because that's what time the accident happened and I couldn't see any issue with telling someone what time it happened.
+1046,1,46,neighbor,at 8:34,8:34,4,4,0,,,,,,,,,,,,0,Answered the question truthfully based on the information given
+1047,1,47,neighbor,8:26-8:34,8:30,8,0,0,,,,,,,,,x,,,,It keeps things simple.
+1049,1,49,police,at 8:28,8:28 in the morning,2,2,0,x,,,,,,,,,,,,It's precise and no question whether am or pm
+1050,1,50,police,at 8:26,8h26,4,4,0,,,,,,,,,,,,0,Because I remembered that's the time I looked at my watch 
+1051,1,51,police,8:26-8:34,around the timeframe of 8:25-35,8,19,around,,x,,,x,,,,,,,,"It seems to safest way to ensure it was accurate, I didn't want to rely on the minute "
+1053,1,53,neighbor,at 8:28,8:28,2,2,0,,,,,,,,,,,,0,Because that is what time the clock displayed
+1054,1,54,neighbor,at 8:34,25 to 9,4,5,0,,,,,,,,,,x,,,We are taught to speak in analogue time and not digital so in my country that is how we say the time.
+1055,1,55,neighbor,8:26-8:34,around 8:30ish,8,10,around,,,x,,,,,,,,,,I dont know the exact time it happened so I gave the average time.
+1056,1,56,police,at 8:30,Half past eight in the morning,0,0,0,,,,,,,,,,,,0,To differeciate it from eight in the evening!
+1057,1,57,police,at 8:28,8:27,2,2,0,,,,,,,,,,,,X,I read the clock incorrectly
+1058,1,58,police,at 8:26,826,4,4,0,,x,,,,,,,,,,,I was answering the question as accurately as possible.
+1059,1,59,police,8:26-8:34,8:30,8,0,0,,,,,,,,,,,,X,i am not sure how to read analogue the last time i did it was in primary school
+1061,1,61,neighbor,at 8:28,828,2,2,0,,,,,,,,,,x,,,Because thats how I write down times
+1064,1,64,police,at 8:30,eight thirty am,0,0,0,,,,,,,,,,,,0,"Because it was morning, and I looked at my watch when the accident happened."
+1066,1,66,police,at 8:26,08:25,4,5,0,,,,,,,,,,,,0,The clock to me looked at 08:25
+1067,1,67,police,8:26-8:34,about eight thirty,8,10,about,x,x,,,,,,,,,,,It was halfway between the time zone so not an exact answer but very close
+1069,1,69,neighbor,at 8:28,9:28am,2,2,0,,,,,,,,,,,,X,I misread the clock! Oh dear!
+1070,1,70,neighbor,at 8:26,eight thirty,4,0,0,x,,,,,x,,x,,,,,"It's the easiest thing to say, I didn't think you'd have to be so specific down to the minute."
+1072,1,72,police,at 8:30,8.30,0,0,0,,,,,,,,,,,,0,That was how I read the time on the clock. I could have answered half past 8 but that wasn't how I read it in my mind when I saw the clock.
+1073,1,73,police,at 8:28,28 minutes past 8,2,2,0,,,,,,,,,,x,,,This is how I would normally answer
+1075,1,75,police,8:26-8:34,8:30,8,0,0,,,,,,,,,,,,0,Because 8:30 is more focused on the clock
+1076,1,76,neighbor,at 8:30,8:30,0,0,0,,,,,,,,,,,,0,Because that's when it happened.
+1077,1,77,neighbor,at 8:32,eight thirty,2,0,0,x,,,,,,x,,,,,,I think that this is an appropriate level of detail given the converstation
+1078,1,78,neighbor,at 8:34,08:35,4,5,0,,,,,,,,,,,,X,
+1079,1,79,neighbor,8:26-8:34,8.30,8,0,0,,,,,,,,,,,,0,This is the midpoint of the range
+1080,1,80,police,at 8:30,8.30am,0,0,0,,,,,,,,,,,,0,"Not only is that the usual time I would leave my house to get to work for 9am but there was also a clock next to the information with 8.30 on, so I thought it would make sense."
+1081,1,81,police,at 8:28,8:28,2,2,0,,,,,,x,,,,,,,"Because it was short, contained all the information asked for, and none of the information not asked for."
+1082,1,82,police,at 8:26,9:26,4,4,0,,,,,,,,,,,,X,Because I didn't properly read the clock
+1083,1,83,police,8:26-8:34,around half past eight this morning,8,10,around,,,x,,,,,,,x,,,"I didn't know precisely when it happened, just that it was a bit before or after half past eight and that is the way I would usually speak"
+1084,1,84,neighbor,at 8:30,eight thirty,0,0,0,,,,,,,,,,x,,,its the way i talk
+1086,1,86,neighbor,at 8:34,25 to 9,4,5,0,x,,,,,,x,,,x,,,"Since it was asked in an informal setting at a party, I would not state the exact time. Rounding off is just the way it is done in my experience."
+1087,1,87,neighbor,8:26-8:34,8.30,8,0,0,,x,,,,,,,,,,,It was what came to mind first as it was in the middle and more accurate
+1088,1,88,police,at 8:30,8:30,0,0,0,,,,,,,,,,,,0,"Because the clock on the left read as ""8:30"""
+1089,1,89,police,at 8:32,just gone 8.30,2,10,just before/after,,,,,,,,,,x,,,8.32 isn't the way that people normally speak. I used slang that means between 8.30 and 8.35
+1091,1,91,police,8:26-8:34,approximately 8:30,8,10,approximately,x,,,x,,,,,,,,,An approximate answer does not have to be exact. My watch or another persons clock may be off by a couple of minutes. 
+1092,1,92,neighbor,at 8:30,half past eight,0,0,0,,,,,,,,,,,,0,because thats what the clock said
+1093,1,93,neighbor,at 8:28,8:28,2,2,0,,,,,,,,,,,,0,"Because that was the time on the clock, and I answered honestly"
+1094,1,94,neighbor,at 8:26,8:26,4,4,0,,,,,,,,,,x,,,Because that's what I answer when it comes to the hour
+1095,1,95,neighbor,8:26-8:34,about 8:30,8,10,about,x,,,,,,x,,,x,,,"Because it is the most natural way of responding, with an appropriate amount of precision given the situation"
+1096,1,96,police,at 8:30,half past 8,0,0,0,,,,,,,,,,x,,,It seemed the most natural and effective way to communicate
+1097,1,97,police,at 8:32,just after 8:30,2,10,just before/after,,,x,,,,,,,,,,"As I unlikely would have remembered the exact time, more a rough estimate."
+1098,1,98,police,at 8:26,eight twenty six,4,4,0,,x,,,,,,,,x,,,"that's how I would have said the time, plus it seemed appropriate to be accurate to the minute"
+1099,1,99,police,8:26-8:34,between 8:26 and 8:34am,8,8,0,,,,,,,,,,,,0,"Because, that's how I remembered it from looking at my watch."
+1100,1,100,neighbor,at 8:30,8.30,0,0,0,,,,,,,,,,,,0,because that was the time
+1101,1,101,neighbor,at 8:28,08:28,2,2,0,,,,,,,,,,,,0,I answered that way because it  shows the accident happened in the morning
+1103,1,103,neighbor,8:26-8:34,8:30,8,0,0,,,,,,,,,,,,0,8:30 was the average between the two points of time I knew when it could have happened.
+1104,1,104,police,at 8:30,8:30,0,0,0,,,,,,,,,,,,0,Because I knew when it happened
+1107,1,107,police,8:26-8:34,8:26-8:34 AM,8,8,0,x,,x,,,x,x,,,,,,Because that was the period in which the accident occurred. The policeman wants all info so better to give the range rather that pretend you know the exact minute when you don't. 
+1110,1,110,neighbor,at 8:34,8:34,4,4,0,,,,,,,,,,,,0,I answered it that way because the clock read 8:34.
+1111,1,111,neighbor,8:26-8:34,08:30,8,0,0,x,,,,,x,x,,,,,,I rounded time to the nearest 30 mins. People don't usually require the exact time when discussing.
+1112,1,112,police,at 8:30,about half past eight in the morning ,0,10,about,,,,,,,,,,x,,,because it felt natural  to give an estimate as an answer
+1113,1,113,police,at 8:32,8:32,2,2,0,,x,,,,x,x,,,x,,,That is the time that was on the clock when I looked at it.  It felt natural to answer that way and I felt was the most accurate time for what the police were looking for.
+1114,1,114,police,at 8:34,8:35,4,5,0,x,x,x,,,x,,,,,,,"8:34 would have been very specific, and I would be unlikely to trust my memory confidently enough to say 8:34 down to the minute. I believe 8:35 is close enough to provide the needed information. "
+1117,1,117,neighbor,at 8:32,8.30,2,0,0,x,,,,,,x,,,x,,,"8.32 is too precise for a chat with a friend.  If the police were asking I would have answered 8.32, however, when talking in normal every day English it would be more usual to say '8.30' or 'half-eight'"
+1118,1,118,neighbor,at 8:34,just after half 8,4,10,just before/after,x,,x,,,x,x,,,,,,"The situation that was described suggested it was an informal chat about the accident, so exact timings were unnecessary. I also felt that by later in the day I would be unlikely to remember the exact time."
+1119,1,119,neighbor,8:26-8:34,8:26 to 8:36 this morning,8,8,0,, ,,,,,,,,,,0,"I misread the clock (i.e. 8:36 rather than 8:34). I answered as honestly as I could, even though I wasn't given the option to use ""between"""
+1120,1,120,police,at 8:30,08:30,0,0,0,,,,,,,,,,,,0,I had read the scenario and no reason not to answer honestly.
+1121,1,121,police,at 8:32,8.32,2,2,0,x,x,,,,,x,,,,,,I wanted to be as specific as possible. I would usually in a regular situation say 8.30 but felt that due to the serious nature the most accurate time would be better.
+1122,1,122,police,at 8:34,8.34 this morning,4,4,0,,,,,,,,,x,x,,,"Because it is still the same day and the police police would also know that/what day it is (so you would not usually feel the need say the full date/it feels a bit redundant). Saying 'this morning', is less formal than '8.34am on [date]' but it just feels more natural to say and is still easily understandable."
+1123,1,123,police,8:26-8:34,around 8:30am give or take 5 mins,8,19,around,,x,,,,,,,,,,,as accurate as possible
+1124,1,124,neighbor,at 8:30,8:30 pm,0,0,0,,,,,,,,,,,,0,"It is because the watch is analog, so I added pm to show that it is in the evening "
+1125,1,125,neighbor,at 8:32,around 8:30,2,10,around,x,,,,,x,x,,,,,,Saying 8:32 would be incredibly specific and so rounding down seems fine as people at the party don't require that level of detail.
+1126,1,126,neighbor,at 8:34,8.34,4,4,0,,,,,,,,,,,,0,did not have any info re am or pm
+1127,1,127,neighbor,8:26-8:34,08H26,8,4,0,,,,,,,,,,,,0,I chose the time that i saw first.
+1128,1,128,police,at 8:30,8:30,0,0,0,,,,,,,,,,,,0,Because we were given an image of a clock at that time and so I assumed that was when the event happened.
+1129,1,129,police,at 8:28,08.28,2,2,0,x,,,,,,x,,,,,,Because it is a police incident it is important to give an exact time.
+1130,1,130,police,at 8:34,26minutes to 9 oclock ,4,4,0,,,,,,,,,,x,,,"its basically how i call out time, in a normal setting if asked "
+1132,1,132,neighbor,at 8:30,8:30 AM,0,0,0,,,,,,,,,,,,0,The accident happened in the morning and I wanted to clarify that.
+1133,1,133,neighbor,at 8:32,08:32 ,2,2,0,,,,,,,,,,,,0,In the task brief it stated that the accident had taken place in the morning.
+1134,1,134,neighbor,at 8:34,8.34,4,4,0,,x,,,,,,,,,,,It seems the most accurate way.
+1135,1,135,neighbor,8:26-8:34,between 25 past 8 and 25 to 9,8,9,0,x,,x,,,,x,,,,,,"I didn't look at the exact minutes. i chose my answer because that is how i would read the time from the clock provided, and when in a stressful situation"
+1136,1,136,police,at 8:30,8:30,0,0,0,,,,,,,,,,,,0,"Based on what the clock showed, I entered the time that it happened."
+1138,1,138,police,at 8:34,8:34,4,4,0,x,,,,,x,,,,,,,he asked for the exact time
+1140,1,140,neighbor,at 8:30,8:30 AM,0,0,0,x,,,,,,,,,x,,,Habit of being specific with reference to time.
+1141,1,141,neighbor,at 8:32,8:30,2,0,0,x,,,,,,,x,,,,,An easier answer that I don't felt takes away from the detail. 
+1142,1,142,neighbor,at 8:34,8.34,4,4,0,x,,,,,x,,,,,,,The exact time might be really important for an accident
+1143,1,143,neighbor,8:26-8:34,half eight,8,0,0,x,x,,,,,,,,,,,Because this was close enough.The exact time was not relevant and half eight is exactly in the middle of the time frameof just eight mi nutes.
+1144,1,144,police,at 8:30,8:30 am,0,0,0,,,,,,,,,,,,0,I choose to answer this way for clarity that the accident happened in the morning
+1146,1,146,police,at 8:26,26 past 8 am,4,4,0,,,,,,,,,,x,,,This is the way I will tell the time if someone ask me.
+1148,1,148,neighbor,at 8:30,half past eight,0,0,0,,,,,,,,,,x,,,Because that is how I would answer it.
+1149,1,149,neighbor,at 8:28,Around half eight,2,10,around,,,,,,,,,,,,0,Because it was a rough time. 
+1150,1,150,neighbor,at 8:26,8.25,4,5,0,,,,,,,,,,x,,,I would always say 5 as it would have been close to the 6
+1151,1,151,neighbor,8:26-8:34,8:30,8,0,0,,,,,,,,,,,,0,it's in the middle of the range
+1152,1,152,police,at 8:30,8:30am,0,0,0,,,,,,,,,,,,0,I chose this answer because  it was the time the accident happened.  and i stated that it happened at 8:30am so the police knew the time of day it happened. 
+1154,1,154,police,at 8:34,8:34,4,4,0,x,,,,,,,,,,,0,Because that was the exact time it happened.
+1155,1,155,police,8:26-8:34,Half past 8,8,0,0,,,x,,,,,,,,,,Because I wasn't sure of the proper time so I chose a time in the middle.
+1156,1,156,neighbor,at 8:30,8:30,0,0,0,,,,,,,,,,,,0,"the accident happened in the morning, that's why I replied that"
+1157,1,157,neighbor,at 8:32,half past eight,2,0,0,x,,,,,,x,,,,,,It didn't seem like the situation where I would have to be specific to the minute.
+1158,1,158,neighbor,at 8:26,eight twenty-five,4,5,0,x,,,,,,x,,,,,,"8:26 is weirdly specific, given that this lady is just a rubbernecker (like me, in this scenario). If she'd been a paramedic or a cop or something I'd have given the exact time"
+1159,1,159,neighbor,8:26-8:34,half eight,8,0,0,,,,,,,,,,,,0,becase of the clock seemed closest to this time 
+1161,1,161,police,at 8:28,8:28,2,2,0,,,,,,,,,,,,0,That was the time shown on the watch
+1163,1,163,police,8:26-8:34,approx 8:30,8,10,approximately,,,,,,,,,,x,,,it is what I would normally have responded with
+1164,1,164,neighbor,at 8:30,around half eight,0,10,around,,,,,,,,x,x,,,,i believe this will be easier to remember for me and her also.
+1166,1,166,neighbor,at 8:26,8:26am in the morning,4,4,0,x,,,,,,,x,x,,,,because I though it's simple & easy  to understand 
+1167,1,167,neighbor,8:26-8:34,around half eight,8,10,around,,,x,,,,,,,,,,"It indicates the rough/approximate nature of the recollection of the time, while providing an anchor in the middle of the timeframe that it happened"
+1168,1,168,police,at 8:30,8.30am,0,0,0,,,,,,,,,,,,0,That's what time it happened when read the watch.
+1169,1,169,police,at 8:32,8:32,2,2,0,,,,,,,,,,,,0,because that was the truth
+1170,1,170,police,at 8:26,26 past 8,4,4,0,x,,,,,,,,,,,,"It is in the similar form to ""25 past"" but is more specific."
+1171,1,171,police,8:26-8:34,approximately 0830,8,10,approximately,,,,,,,,,,,,0,because thats when the accident happened
+1172,1,172,neighbor,at 8:30,half past eight,0,0,0,,,,,,,,,,,,0,That's the time it occurred at.
+1173,1,173,neighbor,at 8:32,8.32,2,2,0,x,,,,,,,,,,,,Because that's when it happened exactly.
+1174,1,174,neighbor,at 8:26,8:26am,4,4,0,,,,,,,,,,,,0,Because I read on the clock that I happened at that time in the morning.
+1175,1,175,neighbor,8:26-8:34,8:30,8,0,0,,,,,,,,,,,,0,This was an answer in between the parameter set out
+1176,1,176,police,at 8:30,half eight ,0,0,0,,,,,,,,,,x,,,It felt natural to tell the time in this manner or the other option could have been half past eight. 
+1178,1,178,police,at 8:26,8:26,4,4,0,,x,,,,,,,,,,,I tried to read the clock as accurately as I could
+1179,1,179,police,8:26-8:34,0826- 08340hrs,8,8,0,,,,,,,,,x,,,,To give a transparent report and help in best possible way 
+1180,1,180,neighbor,at 8:30,half eight,0,0,0,,,,,,,,,,x,,,That is what I feel is the most natural thing to say
+1181,1,181,neighbor,at 8:28,Nearly half past 8 this morning,2,10,nearly,,,x,,,,x,,,x,,,I would usually give the approximate time in a situation like this (to the nearest quarter hour) as I wouldn't necessarily have noticed the exact minute on the watch.
+1182,1,182,neighbor,at 8:34,8:30AM,4,0,0,x,,,,,,,,,,,,8:34 seemed too specific so just rounded it to the approximate time
+1186,1,186,police,at 8:34,8:34,4,4,0,,,,,,,,,,,,0,because it was the right way
+1187,1,187,police,8:26-8:34,8:30,8,0,0,,,,,,,,,,,,0,Was the mid point of the time range
+1188,1,188,neighbor,at 8:30,8:30am,0,0,0,,,,,,,,,,,,0,it was what came to my mind when reading the clock
+1189,1,189,neighbor,at 8:28,about half eight,2,10,about,,,,,,,,,,x,,,I think that's how I would naturally respond
+1191,1,191,neighbor,8:26-8:34,around eight-thirty,8,10,around,,x,,,,,,,,,,,As that is was a close enough answer without over explaining
+1192,1,192,police,at 8:30,8:30,0,0,0,x,,,,,x,,,,,,,I knew the exact time and thought a precise answer would be helpful. There didn't seem to be many other ways I could have answered.
+1194,1,194,police,at 8:34,8:34,4,4,0,,,,,,,,,,,,0,Because that was how I interpreted the time and it was in everyone's best interest to be honest.
+1196,1,196,neighbor,at 8:30,8:30,0,0,0,,,,,,,,,,,,0,I was avoiding being asked to many questions at this kind of event.
+1197,1,197,neighbor,at 8:28,8:30,2,0,0,x,,,,,,x,,,x,x,,"I chose to answer this way because in a casual/informal conversation with someone else about it I would not want to look so pedantic as to state 8:28, which is very specific. In general life I feel people tend to work with the quarters of the hours when referring to time, or in 5 minute intervals, not specifics. If I was providing information to an insurance company or police and I knew the exact time then I would likely say 8:28 in that situation."
+1198,1,198,neighbor,at 8:26,8.26,4,4,0,,,,,,,,,,,,0,as I was asked what time it happened 
+1199,1,199,neighbor,8:26-8:34,8:30,8,0,0,,,,,,,,,,,,0,I had a feeling the probability would most likey be at the 8:30 mark. Besides that it was a bit more a wild guess. Normally I would note down the time had I seen a car crash in real life with my Apple Watch.
+1200,1,200,police,at 8:30,8.30am,0,0,0,,,,,,,,,,,,0,Because that's the time it happened
+1201,1,201,police,at 8:32,8:32.,2,2,0,,,,,,x,,,x,,,,"I was answering clearly and quickly, exactly what I was asked without divergence or over complication"
+1202,1,202,police,at 8:34,9:35 am,4,5,0,,,,,,,,,,,,0,"it was meant to be 8:34, I typed incorrectly"
+1203,1,203,police,8:26-8:34,around eight thirty,8,10,around,x,,,x,,,,,,,,,"It's vague enough that I won't be held responsible if the time wasn't exactly eight thirty, but still gave enough information on the general time. "
+1204,1,204,neighbor,at 8:30,half past eight,0,0,0,,,,,,,,,,x,,,That's how I'd say it in real life.
+1205,1,205,neighbor,at 8:28,8:30,2,0,0,x,,,,,x,,,,,,,I did'nt think it was necessary to allocate the precise time but around what time it had happened.
+1206,1,206,neighbor,at 8:26,twenty five past eight,4,5,0,,x,,,,x,x,,,x,,,"I didn't thin k it mattered too much about the extra minute, so I rounded it back to 8.25. I would probably always do this when talking in a social situation, but if I was telling the police etc I would have given the accurate answer of 8.26"
+1207,1,207,neighbor,8:26-8:34,half past 8,8,0,0,,,,,,,,x,,,,,it is exactly half way between the earliest and latest it could have happened. also when the clock hand isn't on an exact number its easier to just say whichever it is closest to. e.g. half past 8 instead of 8:33. 
+1208,1,208,police,at 8:30,8.30,0,0,0,,,,,,,,,,,,0,"It is the same time, different punctuation"
+1210,1,210,police,at 8:26,26 past 8,4,4,0,x,,x,,,,x,,,,,,I seem to have a very vivid and specific memory of what the time was. 26 past 8 (or any variation of that such as '8:26') is the most detailed way to describe it especially for official reasons (as opposed to twenty-five past or half-past eight or something). In the real world it is doubtful I would remember the time so specifically.
+1211,1,211,police,8:26-8:34,around half eight.,8,10,around,,,,,,,,,,x,,,It's the natural way I would respond to this question.
+1212,1,212,neighbor,at 8:30,8:30,0,0,0,,,,,,,,,,,,0,because it's what the clock said
+1213,1,213,neighbor,at 8:28,around half past eight ,2,10,around,x,,,,,,,,,x,,,8:28 is very precise and exact and seems an abnormal way to respond to the question.
+1214,1,214,neighbor,at 8:34,8:34,4,4,0,,,,,,,,,,,,0,It was how I remembered the time.
+1216,1,216,police,at 8:30,8:30 a.m.,0,0,0,,,,,,x,,,,,,,Because it was the truth and would be helpful for the investigation.
+1217,1,217,police,at 8:32,HALF PAST EIGHT,2,0,0,x,,,,,,,,,,,,"I think it conveys the time of the accident, generally but not specifically"
+1219,1,219,police,8:26-8:34,around 8.25 and 8.35am,8,19,around, ,,,,,,,,,,x,,because it gives leeway and is a more genuine answer and 8.26 and 8.34 is a bit anal
+1220,1,220,neighbor,at 8:30,8:30,0,0,0,,x,,,,,,,,,,,As I knew the time so wanted to be as accurate as I could
+1221,1,221,neighbor,at 8:28,8.28am,2,2,0,,,,,,,,,,,,0,because I was asked to write the time displayed on the clock
+1223,1,223,neighbor,8:26-8:34,around 08.26 - 08.34,8,18,around,x,,x,,,,,,,,,,Because i wasn't sure of the exact time 
+1225,1,225,police,at 8:28,8:28,2,2,0,,,,,,,,,,,,0,12hour notation is more common around the world
+1227,1,227,police,8:26-8:34,about 8.30,8,10,about,x,,,,,,,,,,,,because this is an approximate time within this timeframe
+1228,1,228,neighbor,at 8:30,eight thirty,0,0,0,x,,,,,,,,,x,,,That's how I would answer the question if I remembered the time exactly. Or I would say around eight thirty if I didn't remember the exact time.
+1229,1,229,neighbor,at 8:28,around 8.25am,2,15,around,x,,,,,x,x,,,x,,,People usually expect a general or approx time. I fi I was being questioned by the police I would have stated 8.28am
+1230,1,230,neighbor,at 8:34,eight thirty four,4,4,0,,,,,,,,,,,,0,I thought that when you talk to people you use words out in full so I should type out the words in full as if I was speaking to a real person instead of using the digits
+1233,1,233,police,at 8:32,0832am,2,2,0,x,,,,,,,,,,, ,to indicate that it was the morning time and to give an exact time
+1236,1,236,neighbor,at 8:30,approximately half past eight,0,10,approximately,,,,x,,,,,,,,,"Because I would like to say it occurred roughly at half past eight, as the participants may have a slightly different time to me"
+1237,1,237,neighbor,at 8:28,8.28am,2,2,0,,,,,,,,,,,,0,it happened at this time so thats what the answer was
+1238,1,238,neighbor,at 8:26,about 8:30,4,10,about,x,,,,,,,x,,,,,because it seem easier to round the time rather than give to the minute.
+1239,1,239,neighbor,8:26-8:34,around 8:25 to 8:35,8,19,around,,,,,,,,x,x,,,,its the nearest 'roundings' of 5 and its easier to not only say but understand 
+1240,1,240,police,at 8:30,eight thirty,0,0,0,,,,,,,,,,,,0,It provides a factual direct answer
+1243,1,243,police,8:26-8:34,between 8.26am and 8.34am,8,8,0,x,,,,,,,,,,,,I wanted to be as precise as possible
+1244,1,244,neighbor,at 8:30,eight thirty in the morning,0,0,0,,,,,,,,,,x,,,It is a colloquial way of reading time and people generally use and understand it that way.
+1245,1,245,neighbor,at 8:28,8:28,2,2,0,,,,,,,,,,,,0,I looked at the clock and chose my answer.
+1246,1,246,neighbor,at 8:26,8:26am,4,4,0,,,,,,,,,,x,,,"I wrote how I would say it in real life, though I would probably omit the AM part"
+1249,1,249,police,at 8:32,8:32 AM,2,2,0,x,,,,,x,x,,,,,,"The police police would need a precise time for his timeline. I gave the precise time. The accident occurred in the morning, so I added AM."
+1250,1,250,police,at 8:26,8:26,4,4,0,,,,,,,,,,,,0,As it was the time shown on the clock.
+1251,1,251,police,8:26-8:34,8:30,8,0,0,,,,,,,,,,,,0,Because that was between  both sets of time
+1252,1,252,neighbor,at 8:30,8.30,0,0,0,,,,,,,,,,,,0,it was a clear response to the question 
+1253,1,253,neighbor,at 8:28,08:29 am,2,2,0,,,,,x,,,,,,,,"It might happen that it was just before 08:29, so just to be safe or realistic I wrote 08:29 am"
+1255,1,255,neighbor,8:26-8:34,8:30,8,0,0,x,,,,,,,,x,,,,"It's a less precise time, but easier for everyone to understand/think about."
+1256,1,256,police,at 8:30,8:30,0,0,0,,,,,,,,,,,,0,Because the scenario stated that I looked at my watch when it happened
+1257,1,257,police,at 8:28,8:28,2,2,0,,,,,,,,,,,,0,That's what was asked
+1258,1,258,police,at 8:34,8:34pm,4,4,0,,,,,,,,,,,,0,To provide as much context as possible.
+1259,1,259,police,8:26-8:34,approximately 08:30am ,8,10,approximately,,,,x,,,,,,,,,this was the time between 08:26 and 08:34 so even if i got it slightly incorrect somehow it would be close to proximity
+1260,1,260,neighbor,at 8:30,eight thirty,0,0,0,,x,,,,,,x,,,,,because that's the quickest way to describe it accurately
+1262,1,262,neighbor,at 8:26,08:26am,4,4,0,x,,,,,,,,,,,0,because I looked at my watch just as I left the house and saw the accident. The event would have made me remember the time exactly.
+1263,1,263,neighbor,8:26-8:34,about half 8,8,10,about,x,,,,,,,x,,,, ,its the time approx in the middle of the time frame. its shorter 
+1264,1,264,police,at 8:30,8:30AM,0,0,0,x,,,,,x,x,,,,,,"Given the case details, the incident occurred in the morning and the clock indicates that it was at exactly 8:30. In these situations, it is necessary to be as specific as possible if the information is relevant. "
+1267,1,267,police,8:26-8:34,8:30,8,0,0,,,,,,,,,,,,0,"It was in the middle; essentially, rounded up/down."
+1268,1,268,neighbor,at 8:30,8:30,0,0,0,,,,,, ,,,x,,,,As i felt like writing the time like that as it would be easier for others to read.
+1269,1,269,neighbor,at 8:32,about half eight,2,10,about,x,,,,,,,x,,,,,it is an easier thing to say then give a precise timing
+1270,1,270,neighbor,at 8:26,8:26,4,4,0,,,,,,,,,,,,0,Thats what was on the clock
+1272,1,272,police,at 8:30,8.30,0,0,0,,,,,,,,,,,,0,8.30 shows it s morning
+1273,1,273,police,at 8:28,8:28,2,2,0,x,,,,,,x,,,,,,In that situation I'd do my best to be as detailed as possible. 
+1275,1,275,police,8:26-8:34,08:30,8,0,0,,,,,,,,,,,,0,It's in the middle. 
+1276,1,276,neighbor,at 8:30,8.30am,0,0,0,,,,,,,,,,,,0,because this was the time when the clock was looked at and when the accident was happening
+1278,1,278,neighbor,at 8:34,8:34,4,4,0,x,,,,,,,,,x,,,I am specific in responses
+1280,1,280,police,at 8:30,half 8,0,0,0,,,,,,,,x,,x,,,"I am not entirely sure it just sounds easier, or rather the universal way time is told. "
+1281,1,281,police,at 8:28,twenty-eight minutes past eight,2,2,0,x,,,,,x,x,,,x,,,I answered this way because it is a situation where you need to be precise about the time. In a normal situation if I was asked the time I would say half past eight or almost half eight but in this situation you need to be exact.
+1282,1,282,police,at 8:26,25 minutes past 8,4,5,0,,,,,,,,,,,,,Because on the clock I saw 08:25.
+1284,1,284,neighbor,at 8:30,eight thirty,0,0,0,,,,,,,,,,,,0,"As it was in the morning, so thought I didn't need to signify it was the evening"
+1285,1,285,neighbor,at 8:28,8:28,2,2,0,,,,,,,,,,,,0,Because that was the time that I had remembered.  It was also the time that the event had happened.
+1287,1,287,neighbor,8:26-8:34,about 8.30am,8,10,about,x,,,,,,,,,x,,,"I first thought (and initially wrote) an answer as ""between 8.26 and 8.34.""  However I thought about what happens in real life and changed it to about 8.30am, using the word about to indicate that it is not totally precise. "
+1289,1,289,police,at 8:32,08h32,2,2,0,x,,,,,x,,,,x,,,I wanted to give an exact time as I felt that would likely be important for the incident report. 
+1290,1,290,police,at 8:34,8:34,4,4,0,,,,,,,,,,,,0,It was the honest answer
+1291,1,291,police,8:26-8:34,between 08:26 and 08:34,8,8,0,,,,,,,,,,x,,,"Because this was the time shown on the clock, and is how I would answer the question in real life."
+1292,1,292,neighbor,at 8:30,8.30am,0,0,0,,,,,,,,,,,,0,So she would know it was in the morning rather than the evening.
+1293,1,293,neighbor,at 8:28,8:38. I remember because I looked at my watch right after.,2,2,0,,,,,,,,,,,,X,lol I meant to type 8:28 but had a brain fart mid type.  I answered this way to be thorough.
+1294,1,294,neighbor,at 8:34,It was around 8:35,4,15,around,,,,,,,,,,x,,,That's how I would I would have answered.
+1297,1,297,police,at 8:28,8:28,2,2,0,,x,,,,,,,,,,,Because that was the correct time as indicated on the clock.
+1298,1,298,police,at 8:26,8:26,4,4,0,,,,,,,,,,,,0,because that is whenit happened
+1299,1,299,police,8:26-8:34,8:30am,8,0,0,,,,,,,,,,,,0,chose a round number
+1301,1,301,neighbor,at 8:28,8.28am,2,2,0,,,,,,,,,,,,0,The clock showed the time 8.28 and the information stated that the event happened in the morning.
+1302,1,302,neighbor,at 8:26,8:26,4,4,0,,,,,,,,,,,,0,The watch showed the time 8:26
+1303,1,303,neighbor,8:26-8:34,about half past eight this morning,8,10,about,x,x,,,,,x,,,x,,,"If I was writing a report about it or giving a report to the police, I would be precise about the correct time, but in casual conversation it is not natural to give a time range and so I would just give a rough description of the time. However, I would be happy that my description was still pretty accurate and truthful."
+1305,1,305,police,at 8:32,half past 8 AM ,2,0,0,,,,,,,,,,x,,,"It's how I look at time, I always round up and give the time in Quarters or halfs plus the hour. "
+1307,1,307,police,8:26-8:34,around half past eight,8,10,around,,,x,,,,,,,,,,Because I couldn't be sure which time exactly it was.
+1308,1,308,neighbor,at 8:30,8:30,0,0,0,,,,,,,,,x,,,,"I thought being truthful would be easier, and I had no to reason to lie."
+1309,1,309,neighbor,at 8:32,half 9,2,0,0,,,x,,,,,,,,,," Because the clock was a little unclear, and maybe I'm just bad at telling the time on a manual clock "
+1310,1,310,neighbor,at 8:34,8;34AM,4,4,0,,,,,,,,,,,,x,i like it very much
+1311,1,311,neighbor,8:26-8:34,just after 8.25,8,15,just before/after,x,,,,,,x,,,,,,Because it would seem odd to be so precise to a neighbour. If it was the police and the timing was crucial to an investigation then i might answer differently. 
+1312,1,312,police,at 8:30,eight thirty,0,0,0,x,,,,,,,,,,,,It felt precise and less prone to misinterpretation.
+1313,1,313,police,at 8:28,eight twenty eight,2,2,0,,,,,,,,x,,,,,It is the quickest way to spell the time out. 
+1314,1,314,police,at 8:34,eight thirty-four,4,4,0,,,,,,,,,,,,0,"Because the question was written formally, so I wrote the proper number rather than '8:34'."
+1316,1,316,neighbor,at 8:30,half eight,0,0,0,,,,,,,,,,x,,,how I naturally say it
+1317,1,317,neighbor,at 8:32,"8.32am, just as I was leaving to go to work.",2,2,0,,,,,,,,,,,,X,I chose to answer it this was as that was the time I usually left the house to go to my work.
+1318,1,318,neighbor,at 8:26,8.26,4,4,0,,,,,,,,,,,,0,because that was the time shown on the clock
+1319,1,319,neighbor,8:26-8:34,8:30,8,0,0,x,,,,,x,,,,,,,because it was in the middle of both and the lady asking did not need to know the exact times
+2002,2,2,police,at 8:29,"8:29, or right before as i looked at my watch right when it happened (cannot see two things at once)",1,1,0,,,,,,,,,,,,0,"as mentioned in the brackets: you cannot look at two things at the same time, to be able to witness the accident I must have looked at the watch right after it happened"
+2003,2,3,police,at 8:27,8:27,3,3,0,,,,,,,,,,,,0,On the clock that was the time indicated
+2004,2,4,police,8:26-8:34,about 8:30,8,10,about,,,x,,,,,,,,,,I wasn't sure of the exact time so I told the truth using the middle of the time available.  
+2005,2,5,neighbor,at 8:25,25 past 8,5,5,0,,,,,,,,,,x,,,It's just how i would answer this 
+2006,2,6,neighbor,at 8:29,8:29,1,1,0,,,,,,,,,,,,0,Because that answers the question asked. 
+2009,2,9,police,at 8:35,8:35 this morning,5,5,0,,,,,,,,,,,,0,Because that's the time the scenario indicated that it happened.
+2011,2,11,police,at 8:33,half past 8,3,0,0,x,,x,,,,,,,,,,"When I read my watch I read it for approximate time, not exact."
+2012,2,12,police,8:26-8:34,around 8:30 in the morning,8,10,around,,,x,,,,,,,,,,"Because if the clock showed that range, it is probably because I didn't remember the exact time, but 8:30 fell in the middle of that range so it seemed like a reasonable estimate"
+2013,2,13,neighbor,at 8:25,8.25,5,5,0,,,,,,,,x,x,x,,,"That is how I would refer to that time, rather than 25 past 8. Its easier to say the time and ensure there is no confusion that way. "
+2014,2,14,neighbor,at 8:31,around 8,1,10,around,x,,,,,x,,,,,,,They did not ask for the exact time 
+2015,2,15,neighbor,at 8:33,around eight thirty,3,10,around,,x,,,,,,,,,,,"because i said around 8,30 and ju√üt 3 min off"
+2016,2,16,neighbor,8:26-8:34,8:30,8,0,0,,,,,,,,,,,,0,"I would usually say ""it happened between 8:26-8:34"" or ""around 8:30"" but the statement before the word I filled in was "" It happened at"" which is followed by a single time."
+2018,2,18,police,at 8:29,8:39am,1,1,0,,,,,,,,,,,,X,"Sorry, it was typo. I should've typed ""29"""
+2019,2,19,police,at 8:27,around 8:27 this morning ,3,3,around,x,,,,,,,,,,,,because it was percise and true 
+2021,2,21,neighbor,at 8:25,25 minutes past 8,5,5,0,,,,,,,,,,,x,,Because it sounds nicer than just saying 8:25.
+2024,2,24,neighbor,8:26-8:34,8.26 - 8.35,8,8,0,,,,,,,,,,,,X,i ment to right 8.26 - 8.34 not 35
+2027,2,27,police,at 8:33,eight thirty three,3,3,0,,x,,,,,x,,,,,,I would feel obliged to be accurate as I was being interviewed formally about the incident.
+2029,2,29,neighbor,at 8:25,08:25,5,5,0,,,,,,,,,,,,0,"That is the notation I was taught, and 08:25 means morning (as it was indicated that the accident happened in the morning) and 20:25 would mean evening. "
+2030,2,30,neighbor,at 8:29,8:29,1,1,0,,,,,,,,,,,,0,It was the time that was displayed on the watch. 
+2031,2,31,neighbor,at 8:27,8.27,3,3,0,,,,,,,,,,,,0,Because that is the time my clock showed when I looked at it in the morning as the accident happened. 
+2032,2,32,neighbor,8:26-8:34,8:30,8,0,0,,,,,,,,,,,,0,Because it was in the middle of the time range
+2035,2,35,police,at 8:27,8:27,3,3,0,,,,,,,,,x,,,,It easier to read in numerics rather than words
+2036,2,36,police,8:26-8:34,around 8:30,8,10,around,,,x,,,,,,,,,,I knew the general time but not a specific time
+2037,2,37,neighbor,at 8:25,twenty-five passed eight,5,5,0,,,,,,,,,,x,,,"It's how I learned to read the time, and how I continue to read the time every day."
+2039,2,39,neighbor,at 8:27,08:27,3,3,0,,,,,,,,,,,,0,"Because the clock demonstrated the time of 08:27 meaning the two possibilities are 20:27 and 08:27. As the description of the scenario indicated that the accident happened in the morning, 08:27 is the most plausible answer."
+2040,2,40,neighbor,8:26-8:34,0825 - 0835,8,9,0,x,,,,,,,,,x,,,Seems more natural to round the time to the nearest 5 minute interval
+2041,2,41,police,at 8:25,8:25 AM,5,5,0,,,,,,,,,,,,0,Because it happed in the morning so I specified AM
+2042,2,42,police,at 8:29,8:29,1,1,0,,,,,,,x,,,,,,because it was a formal statement of an important event.
+2044,2,44,police,8:26-8:34,8:25-8:35,8,9,0,,,,,,,,,,x,,,"if it's just 1 minute or 2, i always round up, i wouldn't think it would make much of a difference"
+2045,2,45,neighbor,at 8:25,8:25,5,5,0,,,,,,,,,,,,0,Because that's the time it happened
+2046,2,46,neighbor,at 8:31,just past 8.30,1,10,just before/after,,,,,,,x,,,,,,The scenario was to talk with friends and I would be more informal in that case
+2047,2,47,neighbor,at 8:27,twenty five past eight,3,5,0,,,,,,,,,,,x,,To avoid sounding pedantic I'd tell the time to the nearest five minutes.
+2049,2,49,police,at 8:35,8:35,5,5,0,,,,,,,,,,,,0,To be honest.
+2050,2,50,police,at 8:29,8:29,1,1,0,,,,,,,,,,x,,,Because this is short version time and I grew up telling time this way.
+2051,2,51,police,at 8:33,8.33,3,3,0,,,,,,,,,,,,0,That was when it happened
+2052,2,52,police,8:26-8:34,approximately 08:30,8,10,approximately,,,,,,,,,,,,0,Because it happened between an 8 minute window and 08:30 would have been the mid-way point. That is why I said 'approximately' and not 'exactly' 08:30
+2054,2,54,neighbor,at 8:29,8:30,1,0,0,x,,,,,,,,x,x,,,Just easier and less weird to round it up slightly
+2055,2,55,neighbor,at 8:33,8.33am,3,3,0,,,,,,,,,,,,0,because that was the time on the watch
+2056,2,56,neighbor,8:26-8:34,about 8:30,8,10,about,x,,,,,,x,,,,,,"I wanted to add, ""...with a margin of error of 3 minutes in either direction,"" but that seemed too formal for a casual conversation with a neighbor. If I was speaking to a police officer as a witness, I would be that precise. But with the neighbor in a friendly convo, I would keep it simple. If they want a more precise answer,  they will ask for it."
+2057,2,57,police,at 8:25,8:25,5,5,0,,,,,,,,,,,,0,It was the truth
+2059,2,59,police,at 8:27,8.27 in the morning,3,3,0,,,,,,,,,,,,0,i imagined myself not saying at 8.27am.  but rather saying in the morning just to clarify.
+2060,2,60,police,8:26-8:34,about half past eight,8,10,about,x,x,x,,,,,,,,,,"Accurate, but indicated that I was not certain about the exact time."
+2061,2,61,neighbor,at 8:25,08:25,5,5,0,,x,,,,,,,,,,,Because that's the most accurate time
+2062,2,62,neighbor,at 8:31,Half past eight,1,0,0,,,,,,,x,,,,x,,Because 8.31 sounds weirdly specific and the extra minute doesn't seem to add any value in this situation 
+2063,2,63,neighbor,at 8:27,8.27am,3,3,0,,,,,,,,,,,,0,Because it remembered it was in the morning .
+2064,2,64,neighbor,8:26-8:34,about 20.30,8,10,about,,,,,,,,,,,,0,Because it encompasses the time in either side.
+2065,2,65,police,at 8:25,5:42,5,5,0,,,,,,,,,,,,X,
+2066,2,66,police,at 8:31,08:31,1,1,0,,,,,,,,,x,,,,Because it is the best way to get the information across to the police with minimal amount of confusion
+2067,2,67,police,at 8:33,eight thirty three this morning,3,3,0,,,,,,,,,,,,0,Because that's the time the accident happened... 
+2068,2,68,police,8:26-8:34,Around 8.30 am,8,10,around,x,,x,,,,,,,,,,As this provides the rough time that the accident happened while not being able to recall the exact time
+2069,2,69,neighbor,at 8:35,twenty five to nine,5,5,0,,,,,,,,,,x,,,This is how I would say it in conversation. 
+2070,2,70,neighbor,at 8:31,8.31am,1,1,0,x,,,,,,,,,,,,because thats the  exact time shown when the accident was
+2071,2,71,neighbor,at 8:33,8.33am,3,3,0,,,,,,,,,,,,0,it said the incident hapenned in the morning the party was later in the day 
+2072,2,72,neighbor,8:26-8:34,8:30,8,0,0,x,,,,,,,,,,,,"because it was approximately, not exact "
+2074,2,74,police,at 8:29,8.30 am,1,0,0,,x,,,,,,,,,,,It gave the closest standard time. 8.30 am felt close enough in terms of bench marking the answer.
+2075,2,75,police,at 8:33,roughly 25 to 9 in the morning,3,15,roughly,,,x,,,,,,,x,,,"For me at least, it feels odd to say ""thirty three minutes past 8"". Also, I think if that situation were to happen to me in real life, I wouldn't take exact note of the time, therefore I would only be able to give a rough estimate. "
+2076,2,76,police,8:26-8:34,around 8.30,8,10,around,,,,,,,,,,,,0,median
+2078,2,78,neighbor,at 8:29,about half eight,1,10,about,x,x,,,,x,,,,,,,No one is worried about the time being given to the exact minute so I said 8:30 as its very close.
+2079,2,79,neighbor,at 8:33,8:30am,3,0,0,x, ,,,,,,,,,,,Because it was a round time without being exact to the minute.
+2081,2,81,police,at 8:35,8.35 am,5,5,0,,,,,,,,,,,,0,I assumed it was in the morning as people are usually leaving the house for work.
+2082,2,82,police,at 8:31,8:31 AM,1,1,0,,,,,,,,,,,,0,That is the time on the clock that was shown. The narrative said that I'd seen that time when the accident occurred.
+2083,2,83,police,at 8:33,08:33,3,3,0,,,,,,,,,,,,0,So it was clear it happened in the morning. 
+2085,2,85,neighbor,at 8:35,8.35,5,5,0,,,,,,,,,,,,0,as that was the time on the clock
+2086,2,86,neighbor,at 8:29,8 thirty,1,0,0,x,,,,,,,,x,,x,,"It sounds more fluent when spoken, and it is easier to remember and round time in 15 minute intervals. For example 8 o'clock, quarter past 8, and so on."
+2087,2,87,neighbor,at 8:33,8:33 am,3,3,0,x,,,,,,,,,,,,That is when it precisely happened. 
+2088,2,88,neighbor,8:26-8:34,8.30,8,0,0,,,x,,,,,x,,,,,"Easiest half way house. If you remember the time frame but not the time, then an average is good, especially for a small window of 8 minutes. If it was 15 mins or longer I would've said the range rather than a specific time value."
+2089,2,89,police,at 8:25,25 past 8,5,5,0,,,,,,,,,,,,0,as thats how i was taught to read the time
+2090,2,90,police,at 8:31,8:31,1,1,0,x,,,,,,,,,,,,I knew the exact time
+2091,2,91,police,at 8:33,8:33,3,3,0,,,,,,,,,,,,0,Because it happened at 8:33 according to that guy.
+2092,2,92,police,8:26-8:34,between 8:26 and 8:34,8,8,0,,x,,,,,,,,,,,"Because it was as honest and accurate as I was able to be. To say 8:30, for example, could have prejudiced the investigation."
+2094,2,94,neighbor,at 8:29,8.29,1,1,0,x,,,,,,,,,,,,That' s the exact time it happened.
+2095,2,95,neighbor,at 8:27,8.30,3,0,0,x,,,,,,x,,,,,,"As it was just a friend asking I just rounded the time to the nearest half hour. I would have said Half Eight to be precise as its just easier to say, however if it was an emergency service that asked me and I knew the time was 8.27 I would have answered the question differently. "
+2097,2,97,police,at 8:25,8 and 25 am,5,5,0,,,,,,,,,,,,0,I had no reason to lie 
+2098,2,98,police,at 8:29,half eight,1,0,0,,x,,,,,,,,x,,,"It seemed to be the most fitting, although it wasnt perfectly accurate"
+2099,2,99,police,at 8:27,8:27 am,3,3,0,,,,,,,,,,,,0,I specified that it happened in the morning (AM) because 8:27 could be confused for the evening. 
+2101,2,101,neighbor,at 8:25,twenty five past eight,5,5,0,,x,,,,,,,,,,,It gave an accurate descripition of the time the accident took place at.
+2103,2,103,neighbor,at 8:33,8.30,3,0,0,x,x,x,,,x,x,,,x,,,I most likely wouldn't have recalled the exact time to the minute and it was not of significance to the neighbour whether the time was off by a few minutes. It's more conversational to round up or down a number rather than relay the exact time and I also struggle with number recollection and mathmatics so I would doubt myself being that specific. 
+2104,2,104,neighbor,8:26-8:34,8.30 am,8,0,0,,,,,,,,,,,,X,Seems like a normal time to leave the house
+2105,2,105,police,at 8:35,"Around 25 to 9, I remember looking at my watch",5,15,around,,,,x,,,,,,x,,,"Its how I would naturally say it, even if I was fairly sure I would always say ""around"" as I might doubt myself and worry about being wrong."
+2106,2,106,police,at 8:31,8:31,1,1,0,,,,,,,,,,,,0,Because it happened at 8:31 
+2108,2,108,police,8:26-8:34,8:30am,8,0,0,,,,,,,,,,,,0,Because it was the one in between
+2109,2,109,neighbor,at 8:25,25 past 8,5,5,0,,,,,,,,,,x,,,Thats how I'd say it naturally
+2110,2,110,neighbor,at 8:29,8:30,1,0,0,,,,,,,,,,,,0,Because I saw the hour in the picture
+2113,2,113,police,at 8:35,8.35am,5,5,0,,,,,,,,,,x,,,Because that is how I would tell the time and wanted to clarify I left the house in the morning
+2114,2,114,police,at 8:31,8:30,1,0,0,x,,,x,,,,,,,,,In case my memory was wrong or the clock was wrong - 8:31 seems a bit over the top and over pecise
+2115,2,115,police,at 8:33,just after 8.30,3,10,just before/after,x,,,,,,,,,x,,,Being too specific felt odd 
+2116,2,116,police,8:26-8:34,about eight thirty,8,10,about,x,,,,,,,,,,,,"The answer stem didn't allow me to specify a time range, and since I know the crash wasn't at exactly 8:30, I said about 8:30 so it would be implied that it may have happened slightly earlier or later."
+2117,2,117,neighbor,at 8:25,8:25,5,5,0,,,,,,,,,,,,0,Because the clock said it...
+2118,2,118,neighbor,at 8:31,8:31,1,1,0,x,,,,,,,,,,,,I answered like that because I saw my watch at that moment and that was the exact time.
+2119,2,119,neighbor,at 8:27,08:25,3,5,0,,,,,,,,,,,,X,i pictured myself leaving fir work
+2121,2,121,police,at 8:25,8:25am,5,5,0,,x,,,,,,,,,,,"i chose AM because the question worded it as the accident happening in the morning, so 8:25am is more accurate than just stating 8:25"
+2123,2,123,police,at 8:27,8:27,3,3,0,,x,,,,,,,,,,,I felt that it was the most accurate answer I could give. 
+2125,2,125,neighbor,at 8:25,8:25am,5,5,0,,,,,,,,,,,,0,"Because the accident happened in the morning as we were at a party, which presumably took place in the evening that day"
+2126,2,126,neighbor,at 8:31,8.30,1,0,0,,,x,,,,,,,,,,"It was roughly 8.30. If I had been in an accident, even with a digital clock, I doubt I would remember it was exactly 8.31. "
+2129,2,129,police,at 8:35,8:35am,5,3,0,,,,,,,,,,,,X,
+2131,2,131,police,at 8:33,8.33,3,3,0,x,,,,,,,,,,,,Because I was asked to be as specific as possible. if I had been asked what time it was in real life I would have said about 6.30 or shortly after it
+2134,2,134,neighbor,at 8:31,8;30 in the morning,1,0,0,,,,,,,,x,,,,,Simplicity 
+2135,2,135,neighbor,at 8:27,8:27,3,3,0,,,,,,,,,,,,0,Because that's when it happened
+2137,2,137,police,at 8:35,8:35am,5,5,0,,,,,,,,,,,,0,"To make it obvious to the police that it was in the morning, and I just happen to be used to 12-hour time format."
+2139,2,139,police,at 8:27,8.27,3,3,0,,,,,,,,,,,,0,because it's the truth
+2140,2,140,police,8:26-8:34,8.30,8,0,0,,,,,,,,,,,,0,I just picked a time in the middle of the range instinctively
+2141,2,141,neighbor,at 8:35,8.35,5,5,0,,,,,,,,x,,,,,It rolls off the tongue more easily
+2142,2,142,neighbor,at 8:29,about 8.30,1,10,about,,,,,,,,x,,,,,Easier to express 8.30
+2143,2,143,neighbor,at 8:33,8:33 AM,3,3,0,,,,,,,,,,,,0,Good to specify whether its AM or PM
+2144,2,144,neighbor,8:26-8:34,around half 8,8,10,around,x,,,,,,,,,,,,"It is an approximate time, not an exact time."
+2145,2,145,police,at 8:25,8:25,5,5,0,,,,,,,,,,,,0,"Because it happened at 8:25, however, it may have been at 20:25 I suppose."
+2147,2,147,police,at 8:27,08:27,3,3,0,x,,,,,,,,,,,,Because the scenario explained that the accident happened in my street as I go out to work in the morning  and when I checked my watch at the time of the accident it was exactly 08:27am
+2148,2,148,police,8:26-8:34,round about eight thirty,8,10,round about,,,x,,,,,x,,,,,Because in this real situation I would never have remembered the exact timeslot as my memory is not very good with things like timings - much easier to remember the time by picking the middle of that time slot
+2149,2,149,neighbor,at 8:35,8:35,5,5,0,,,,,,,,,,,,0,Because that is the truth.
+2154,2,154,police,at 8:29,8:29 a.m.,1,1,0,,,,,,,,,,,,0,to distinguish between a.m. and p.m.
+2155,2,155,police,at 8:27,about 8.30 am,3,10,about,,,,x,,,,,,,,,I wouldnt have been sure of the correct minute so would estimate as best I could
+2157,2,157,neighbor,at 8:25,08h25,5,5,0,,,,,,,,,,,,0,To make sure they understand it happened in the morning and not at night.
+2158,2,158,neighbor,at 8:31,08:31am,1,1,0,,,,,,,,,,x,,,I AM USED TO TELLING TIME THIS WAY BECAUSE OF MY FATHER WHO WAS IN THE MILITARY AND THAT IS THE WAY HE SAID IT.
+2159,2,159,neighbor,at 8:27,about 8.30,3,10,about,x,,,x,,,x,,,,x,,"because I don't wear a digital watch, wouldn't be sure that the time was exactly 8.27 and think I would sound a bit daft saying ""8.27"".  If I was providing a statement to the police etc and I knew it was definitely 8.27, then I would say 8.27 to them."
+2160,2,160,neighbor,8:26-8:34,around eight thirty this morning ,8,10,around,,,,,,,,x,,,,,It's a quick and accurate way to describe that time range 
+2161,2,161,police,at 8:35,8:35 AM,5,5,0,x,,,,,,,,,x,,,It was how I tell the time and I knew the exact time so I gave the information  I knew
+2162,2,162,police,at 8:29,8:29,1,1,0,x,,,,,,,,,,,,Because the more specific you are the better at solving what happened
+2163,2,163,police,at 8:33,8:33 pm,3,3,0,,,,,,,,,,,,0,Because I wanted to specify that it was in the afternoon rather than 8:33 in the morning
+2164,2,164,police,8:26-8:34,about half past eight,8,10,about,x,,,x,,,,,,,,,It was in between.  I didn't want to be exact as I could be wrong.
+2165,2,165,neighbor,at 8:35,eight thirty five,5,5,0,,,,,,,,,,,,0,it was how I would have said it
+2166,2,166,neighbor,at 8:31,half past eight,1,0,0,,,x,,,,,,,,,,Because in that situation I probably would have only taken a quick glance at my watch and 8:30 is a more recognizable time.
+2167,2,167,neighbor,at 8:33,8:33,3,3,0,,,,,,,,,,,,0,"Because the narrative said that the clock on the left showed what time the incident occurred, and that was the time that i saw showing on the clock face."
+2168,2,168,neighbor,8:26-8:34,8:30,8,0,0,,,,,,,,,,,,0,middle number
+2171,2,171,police,at 8:27,8:27,3,3,0,,,,,,,,,,,,0,That was the time on the clock.
+2172,2,172,police,8:26-8:34,8.30,8,0,0,,,,,,,,,,,,0,Because it was a round number.
+2173,2,173,neighbor,at 8:25,8.25,5,5,0,,,,,,,,,,,,0,It was a straightforward question that I knew the answer to. I would see no reason to tell anything but the truth. 
+2174,2,174,neighbor,at 8:29,half eight,1,0,0,,,,,,,,,,x,,,because its basically half eight. rounding it seems like the more appropriate thing to do.
+2175,2,175,neighbor,at 8:27,08:27,3,3,0,,,,,,,,,,x,,,Thats how i traditionally write time
+2176,2,176,neighbor,8:26-8:34,8:30,8,0,0,,,,,,,x,,,,,,"Because it was fairly central between either end of the scale, after all it was only a social conversation, not what a witness saw."
+2177,2,177,police,at 8:25,8:25 AM,5,5,0,,,,,,x,,,,,,,"To give objective and clear information about what was asked to me in the first place, any other information not asked would be unnecessary, also I used the AM to avoid any confusion."
+2179,2,179,police,at 8:33,8:33am,3,3,0,x,,,,,x,x,,,,,,The police wanted a specific answer and every minute makes a difference when investigating the case so thought I should be precise.
+2181,2,181,neighbor,at 8:25,twenty five past eight,5,5,0,,,,,,,,,,x,,,Because that is how I would say it out loud. If someone asked me the time.
+2182,2,182,neighbor,at 8:31,8:31am,1,1,0,,,,,,,,,,,,0,Because the question referred to use the clock to state the time it happened
+2183,2,183,neighbor,at 8:27,just before 8.30 this morning,3,10,just before/after,x,,,,,,x,,,,,,I wouldn't not give an exact minute time in casual conversation.  I would have answered 8.27 to a police officer.
+2184,2,184,neighbor,8:26-8:34,eight thirty in the morning,8,0,0,,,,,,,,x,,,,,It is round about when the accident happened. It is easier than saying it happened between 8:26 and 8:34.
+2185,2,185,police,at 8:25,8:25,5,5,0,,,,,,,,,,x,,,It felt right to me.
+2187,2,187,police,at 8:33,8:30,3,0,0,x,,,,,x,,,,,,,"I would be approximate in my answer - I would most likely say it happened 'just after 8:30', as I would imagine that is specific enough."
+2189,2,189,neighbor,at 8:25,8:25 in the morning,5,5,0,,,,,,,x,,,,,,It is an informal/casual way of telling someone when something happened
+2190,2,190,neighbor,at 8:29,around half past eight,1,10,around,,,,,,,,,,x,,,Because I often round up time.
+2191,2,191,neighbor,at 8:27,8:27,3,3,0,,,,,,,,,,,,0,because that is how I read the time on the watch
+2192,2,192,neighbor,8:26-8:34,about 8:30am,8,10,about,,,,,,,,,,,,0,because it is the average time and it is rounded off.
+2193,2,193,police,at 8:25,08:35,5,5,0,,,,,,,,,,,,X,Read the clock wrong as I'm used to reading digital clocks.
+2196,2,196,police,8:26-8:34,8.30am,8,0,0,,,,,,,,,,,,0,Because it was in the middle of the approximation 
+2197,2,197,neighbor,at 8:35,8:35,5,5,0,,,,,,,,,,x,,,It's how I would answer the question in real life.
+2199,2,199,neighbor,at 8:27,08.27,3,3,0,,,,,,,,,,,,0,I looked at the clock and the accident happened in the morning.
+2201,2,201,police,at 8:35,twenty five to nine,5,5,0,,,,,,,,,,x,,,"Because this is how I speak in in terms of time (as opposed to saying ""it happened at eight thirty five"")"
+2202,2,202,police,at 8:31,08:31,1,1,0,,,,,,,,,,,,X,lazy assumption about most likely time I was likely to be outside my house in order to see the accident
+2203,2,203,police,at 8:33,8:32.,3,3,0,,,,,,,,,,,,0,"I thought the clock said 8:32, not 8:33."
+2204,2,204,police,8:26-8:34,about half 8,8,10,about,x,x,x,,,,,,,,,,"Because I wasn't sure of the exact time, this is in the middle so won't be too far from the correct time either way."
+2206,2,206,neighbor,at 8:31,half eight,1,0,0,,,,,,,x,,,x,,,Seemed appropriate in the casual conversation to round to half past.
+2209,2,209,police,at 8:25,25 past 8,5,5,0,,,,,,,,,,x,,,because thats how i would natarually say the time 
+2211,2,211,police,at 8:27,8:30,3,0,0,,,,,,,,,,x,,,It's common to round up the time.
+2212,2,212,police,8:26-8:34,8:30,8,0,0,x,,,,,,,,,,,,"Its a decent middle ground between the two answers, and it gives a relative idea to the officer instead of exact, which could arise problems."
+2213,2,213,neighbor,at 8:25,8.25,5,5,0,,,,,,,,,,x,,,It is how i would say that time
+2215,2,215,neighbor,at 8:27,8:27,3,3,0,,,,,,,,,,,,0,Because the clock showed 8:27
+2218,2,218,police,at 8:31,8:31,1,1,0,,x,,,,,,,,,,,cause this was the correct time
+2222,2,222,neighbor,at 8:29,8:29 AM ,1,1,0,,,,,,,,,x,,,,I chose to answer this way because it gives a clear description of the time I saw the incident occur. 
+2224,2,224,neighbor,8:26-8:34,around half past eight,8,10,around,,,x,,,,,,,,,,Because I did not know the exact time it happened.
+2225,2,225,police,at 8:35,8:35am,5,5,0,,,,,,,,,,,,0,"Because the accident happened in the morning, if I only said it happened at 8:35 the police officer wouldn't know whether it was in the morning or in the evening. As I haven't specified."
+2226,2,226,police,at 8:31,08:30,1,0,0,,,,x,,,,,,,,,incase my watch wasn't 100% accurate
+2229,2,229,neighbor,at 8:25,twenty-five past eight,5,5,0,,,,,,,,,,,,0,"I was always taught that before the half hour was 'past', and past the half hour was 'to'"
+2230,2,230,neighbor,at 8:29,8:29,1,1,0,x,,,,,,x,,,x,,,"I prefer to give exact times--despite being teased for it--and with someone important and sensitive like an accident, the exact time seems pertinent."
+2231,2,231,neighbor,at 8:33,eight thirty,3,0,0,,,,,,,,,,x,,,"because usually in conversation you round the time  like 30, 40, 45 etc..."
+2233,2,233,police,at 8:35,25 to 9,5,5,0,,,,,,,,,,x,,,In natural conversation I would say 25 to 9 and it was the first thought that came to mind. I probably would have clarified afterwards that it was 8:35am to be more specific for a police report but I wrote down what first came to mind.
+2234,2,234,police,at 8:31,8:31 am,1,1,0,,,,,,,,,,,,0,I chose to answer this way because this was the time I saw the accident take place.
+2235,2,235,police,at 8:27,27 minutes past 8 this morning,3,3,0,,,,,,,,,,,,0,That is how I would describe the time shown on the watch
+2237,2,237,neighbor,at 8:25,8.25,5,5,0,,,,,,,,,,,,0,that is how I right the time and the clock read 8.25
+2238,2,238,neighbor,at 8:31,8.30,1,0,0,,x,,,,,,,,,,,I thought that was the correct time
+2239,2,239,neighbor,at 8:27,8:27,3,3,0,,,,,,,,,,,,X,
+2240,2,240,neighbor,8:26-8:34,8:30ish,8,10,ish,,,,,,,,,,,,0,Because it covers the time before and after the median time in the most effective verbal way
+2242,2,242,police,at 8:31,a minute after half eight ,1,1,0,,,,,,,,x,,,,,I think it is the easiest way to phrase 8:31
+2243,2,243,police,at 8:33,9:30,3,0,0,,,,,,,,,,x,,,I misread the time as 9:30. I would round to the nearest 15 minute interval when looking at my watch.
+2244,2,244,police,8:26-8:34,8:26 to 8:34,8,8,0,,,,,,,,,,,,0,this is what the clock said
+2245,2,245,neighbor,at 8:35,eight thirty-five,5,5,0,,,,,,,,,,x,,,"Natural phrasing for me. I probably would leave it at that unless they asked for more details, which I probably would give."
+2246,2,246,neighbor,at 8:31,8:30,1,0,0,,,,,,,,x,x,,,,Because I rounded it to make it easier to remember and say.
+2247,2,247,neighbor,at 8:33,8:33,3,3,0,,,,,,,,,,,,0,because it was the truth
+2250,2,250,police,at 8:29,8:30 THIS MORNING,1,0,0,,x,,,,,,,x,,,,It's a close enough estimate and conveys the information clearly
+2251,2,251,police,at 8:33,8:35,3,5,0,x,,,,,,,,,x,,,It's the normal way of telling the time - it's not considered 'normal' to answer to the exact minute!
+2252,2,252,police,8:26-8:34,Half past 8,8,0,0,,,,,,,,,,,,0,It was the neutral point
+2253,2,253,neighbor,at 8:35,8:35 ,5,5,0,,,,,,,,,,,,0,It was the time on my watch when I saw the accident
+2254,2,254,neighbor,at 8:29,half 8,1,0,0,,,,,,,,x,,,,,Easier to say half8
+2255,2,255,neighbor,at 8:33,8.30ish,3,10,ish,x,,,,,,x,,,x,,,If in a real conversation i would find it odd to state it to the exact minute. If i give people a time such as i will be over at....i normally say9.30ish for example. 
+2256,2,256,neighbor,8:26-8:34,about 8.30,8,10,about,x,,,,,,x,,,x,,,In a flowing conversation its more natural to give a rough time rather than a precise time.
+2257,2,257,police,at 8:25,8:25 AM,5,5,0,,,,,,,,,,,,X,I assumed that I was leaving the house in the morning and felt it was important to be clear
+2258,2,258,police,at 8:29,08:29,1,1,0,,,,,,,,,,,,0,It's the 24 hour clock and I knew it was the morning.
+2259,2,259,police,at 8:33,8:30,3,0,0,,x,,,,,,,,,,,Near enough
+2260,2,260,police,8:26-8:34,8:30,8,0,0,x,,,,,x,x,,,,,,"For an accident, the precise time in a few minutes does not matter, so the officer only needs to know an approximate range of times.  8:30 is the middle time and is a natural approximation point."
+2261,2,261,neighbor,at 8:35,twenty-five to nine the morning,5,5,0,,,,,,,,,,x,,,I chose to answer this way because it would be odd to say it happened at thirty-five past eight.  It just makes more sense to read time 'to' after half past then to say 'past' after half past. If that makes any sense.
+2263,2,263,neighbor,at 8:33,at 8.33AM,3,3,0,,,,,,,,,,,,0,Because that was when it happened
+2264,2,264,neighbor,8:26-8:34,08:30,8,0,0,,,,,,,,x,,,,,It is the simplest description
+2265,2,265,police,at 8:25,8.25am,5,5,0,,x,,,,x,,,,,,,because it was the accurate information required 
+2266,2,266,police,at 8:29,8:29,1,1,0,,,,,,,,,,,,0,because that is when it happened
+2267,2,267,police,at 8:27,8.27,3,3,0,,x,,,,,,,,,,,I tried to answer accurately
+2268,2,268,police,8:26-8:34,around 8:30am,8,10,about,,,,,,,,,,,,0,It is an average of the time range.
+2271,2,271,neighbor,at 8:27,about 8:30,3,10,around,,,,,,,,,x,,,,"It's easier to remember rounded times, and others seem to prefer it."
+2272,2,272,neighbor,8:26-8:34,eight thirty,8,0,0,,x,,,,,,,,,,,it was accurate to the clock shown
+2273,2,273,police,at 8:35,35 minutes past 8,5,5,0,,,,,,,,,,,,0,Because that is the time it happened and the way I would have said it. 
+2275,2,275,police,at 8:27,8.27 AM,3,3,0,,,,,,,,,,,,0,I answered that way as to give a factual account of my recollection of the event.
+2276,2,276,police,8:26-8:34,around 8am. Between 8:26am & 8:34am ,8,8,0,,x,,,,,,,,,,,because I'm legally obligated to be honest and give accurate answers
+2277,2,277,neighbor,at 8:35,25 to 9 this morning,5,5,0,,,,,,,x,x,,,,,"I found it easier to say this way. Saying it was 8:35 would have been too formal, whereas in an informal event with friends, 25 to 9 this morning seem like a good casual way to inform them. "
+2278,2,278,neighbor,at 8:31,8:31am,1,1,0,x,,,,,,,,,,,,That is the best way to answer a question at first before giving more details.
+2280,2,280,neighbor,8:26-8:34,about 8:30am,8,10,about,,,,,,,,,,x,,,Usually I give time rounding off to the nearest 15 minutes
+2282,2,282,police,at 8:29,8:29 am,1,1,0,x,,,,,,,,,,,,To be precise
+2283,2,283,police,at 8:27,8:27,3,3,0,x,,,,,,,,,,,,"That was the most precise time that I could have said, and it was more sensible than rounding either forwards or backwards."
+2285,2,285,neighbor,at 8:35,8:35 in the morning,5,5,0,,,,,,,,,,,,0,If the party happened later in the day then the accident occurred in the morning.
+2286,2,286,neighbor,at 8:31,around 8:32 in the morning ,1,2,around,,,,,x,,,,,x,,,"I read the watch as 8:32 and usually when people ask me the times I use ""around"" just to be safe "
+2287,2,287,neighbor,at 8:27,8:25ish,3,15,ish,x,,,,,,,,,x,,,I feel as though it adequately represents the timeframe and I feel like it's a more natural way to speak than being exact 
+2288,2,288,neighbor,8:26-8:34,eight thirty,8,0,0,,,,,,,,,,,,0,It seemed roughly in the middle.
+2290,2,290,police,at 8:31,8.31,1,1,0,,,,,,,,,,,,0,looked at what the watch said
+2292,2,292,police,8:26-8:34,7.35am,8,5,0,,,,,,,,,,,,X,"I did not know that it happened between 8.26 and 8.34. I must have missed it in the description, but I was thinking of the time that I leave for work"
+2295,2,295,neighbor,at 8:27,27 minutes past 8,3,3,0,,,,,,,,,x,,,,It makes it clear what time it occurred.
+2297,2,297,police,at 8:35,around 8:30am,5,10,around,x,,,,,,,,,x,,,As humans we tend to round off time to rough 15 minute intervals. If he pressed me further to be more specific I would have given him the exact time.
+2298,2,298,police,at 8:31,20h31,1,1,0,,,,,,,,,,,,0,I worked on the 24 hour time system
+2305,2,305,police,at 8:35,25 minutes to 9,5,5,0,,,,,,,,,,,,0,I would consider it more descriptive in terms of time 
+2308,2,308,police,8:26-8:34,between 8:26 and 8:34,8,8,0,,x,,,,,,,,,,,Because this was the most accurate way of telling the police
+2309,2,309,neighbor,at 8:25,8:25am,5,5,0,,,,,,,,,,,,0,I answered because the clock read 8:25 and it was the morning. 
+2310,2,310,neighbor,at 8:31,8:31,1,1,0,,,,,,,,,,,,0,because it happened at 8:31
+2312,2,312,neighbor,8:26-8:34,around 0830,8,10,around,,,,x,,,,,,,,,Not all watches and clocks are set to the same accurate time.
+2313,2,313,police,at 8:35,8:45am,5,5,0,,,,,,,,,,,,X,I mis-typed it. It should have been 8:35
+2314,2,314,police,at 8:29,8:29,1,1,0,x,,,,,x,,,,,,,thats how i write out the time. It mentioned a detailed timeline so better to be precise if I know the exact time. 
+2317,2,317,neighbor,at 8:35,8:35,5,5,0,,,,,,,,,,,,0,Because it was the time it happened
+2318,2,318,neighbor,at 8:31,8:31,1,1,0,x,,,,,,,,,,,,"Because it was the precise time, I can mention I was looking at my watch if anyone sounds surprised"
+2319,2,319,neighbor,at 8:33,8:33am,3,3,0,,,,,,,,,,,,0,Because since the friend asked about it 'later' it probably took place in the morning
+2321,2,321,police,at 8:35,8.35,5,5,0,,,,,,,,,,,,0,because that was the answer
+2322,2,322,police,at 8:29,just before half past 8,1,10,just before/after,,,,x,,,,,,,,,i don't know how accurate the clock is
+2323,2,323,police,at 8:33,8.33,3,3,0,,,,,,,,,,,,0,Because it was 8:33. But I did not put 08:33 because it was not clear if it was pm or am. 
+2326,2,326,neighbor,at 8:29,8:29,1,1,0,,,,,,,,,,,,0,"The small hand wasn't yet at 9 and the minute hand was at one tick before 30, meaning 29"
+2327,2,327,neighbor,at 8:33,8:33,3,3,0,,x,,,,,,,,,,,It was the right time. Rounding up or down could make information passed on by that person less accurate
+2329,2,329,police,at 8:25,25 past 8,5,5,0,,,,,,,,,,x,,,Because that's the way i usually say it
+2330,2,330,police,at 8:29,8.29 AM,1,1,0,,,,,,,,,,,,0,"I looked at my watch when it happened, and remembered the time it said."
+2331,2,331,police,at 8:27,8:27 am,3,3,0,,,,,,,,,,,,0,It was the correct answer.
+2332,2,332,police,8:26-8:34,8.30,8,0,0,,x,,,,,,,,,,,Because that was the most accurate of time
+2334,2,334,neighbor,at 8:31,half 8,1,0,0,x,,,,,,x,,,,,,"If I was telling the police, I would have said it happened at the exact time, however since it was just a random person who was not that involved, I would say the rough time"
+2336,2,336,neighbor,8:26-8:34,about 8:30 this morning,8,10,about,,,,,,,,,,,,0,"Because it is the average of the two times, but said unspecifically as to include the range."
