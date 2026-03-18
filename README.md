@@ -1,5 +1,7 @@
 # Modeling (Im)Precision in Context — Data & Analysis
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/muehlenbernd/imprecision-in-context/blob/main/notebooks/01_data_analysis.ipynb)
+
 This repository contains the participant-level data and analysis code for:
 
 > Mühlenbernd, R. & Solt, S. (2022). Modeling (im)precision in context. *Linguistics Vanguard*, 8(1), 113–127. https://doi.org/10.1515/lingvan-2022-0035
