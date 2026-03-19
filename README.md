@@ -28,8 +28,8 @@ How precisely do speakers communicate numerical information — and does context
 
 In Mühlenbernd & Solt (2022), we report a production experiment in which 499 Prolific participants reported the time of a witnessed accident. The key manipulations were:
 
-- **Context**: police station (precision and accuracy matter) vs. neighbor at a party (rough approximation is appropriate)
-- **Information state**: what time the participant actually saw on the clock, ranging from the exact round value (8:30) to increasingly imprecise states
+- **Context**: police station vs. neighbor's party
+- **Information state**: what time the participant actually saw on the clock — either a precise value within the range 8:25–8:35, or the approximate range 8:26–8:34
 
 The central finding: speakers round off more in the neighbor context than in the police context, and this difference is robust across information states. A probabilistic game-theoretic speaker model reproduces these patterns by fitting context-specific weights for the speaker goals of accuracy and hearer-oriented simplification.
 
