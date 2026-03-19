@@ -18,7 +18,7 @@ It accompanies the case study in:
 |---|---|
 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/muehlenbernd/imprecision-in-context/blob/main/notebooks/01_imprecision.ipynb) | Interactive (Google account required) |
 | [![Launch Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/muehlenbernd/imprecision-in-context/main?filepath=notebooks/01_imprecision.ipynb) | Interactive (no account needed; slower start) |
-| [![nbviewer](https://raw.githubusercontent.com/jupyter/design/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.org/github/muehlenbernd/imprecision-in-context/blob/main/notebooks/01_imprecision.ipynb) | Read-only rendered view |
+| [![View on GitHub](https://img.shields.io/badge/view-on%20GitHub-lightgrey?logo=github)](https://github.com/muehlenbernd/imprecision-in-context/blob/main/notebooks/01_imprecision.ipynb) | Read-only rendered view |
 
 ---
 
