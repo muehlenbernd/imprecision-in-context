@@ -121,10 +121,9 @@ def plot_matrix(matrix, title, ax):
         for j in range(matrix.shape[1]):
             val = matrix.values[i, j]
             pct = int(round(val * 100))
-            if pct > 0:
-                color = 'white' if val > 0.55 else 'black'
-                ax.text(j, i, str(pct), ha='center', va='center',
-                        fontsize=8, color=color)
+            color = 'white' if val > 0.55 else 'black'
+            ax.text(j, i, str(pct), ha='center', va='center',
+                    fontsize=8, color=color)
 
     ax.set_xticks(range(len(matrix.columns)))
     ax.set_xticklabels(matrix.columns, rotation=45, ha='right', fontsize=9)
@@ -226,6 +225,51 @@ def plot_motives(df, save_path=None):
     plt.show()
 
     return motive_df
+
+
+def plot_rounding_effect(ct, save_path=None):
+    """Plot round vs. non-round response proportions by context.
+
+    Parameters
+    ----------
+    ct : pd.DataFrame
+        Contingency table with rows = contexts and columns ['non-round', 'round'],
+        as returned by pd.crosstab(sub['context'], sub['rounded']).
+    save_path : str, optional
+        If provided, save figure to this path.
+    """
+    ct_prop = ct.div(ct.sum(axis=1), axis=0)
+
+    fig, ax = plt.subplots(figsize=(5, 4))
+
+    x = np.arange(len(ct_prop.index))
+    width = 0.35
+    colors = {'round': '#4a6fa5', 'non-round': '#b0c4de'}
+
+    bars_round    = ax.bar(x - width / 2, ct_prop['round'],     width,
+                           label='round',     color=colors['round'])
+    bars_nonround = ax.bar(x + width / 2, ct_prop['non-round'], width,
+                           label='non-round', color=colors['non-round'])
+
+    for bar in [*bars_round, *bars_nonround]:
+        h = bar.get_height()
+        ax.text(bar.get_x() + bar.get_width() / 2, h + 0.02, f'{h:.0%}',
+                ha='center', va='bottom', fontsize=9)
+
+    ax.set_xticks(x)
+    ax.set_xticklabels(ct_prop.index)
+    ax.set_ylabel('Proportion of responses')
+    ax.set_xlabel('Context')
+    ax.set_title('Round vs. non-round responses by context\n'
+                 '(non-round precise states s₃₀±₁ to s₃₀±₄)')
+    ax.set_ylim(0, 1.1)
+    ax.yaxis.set_major_formatter(plt.FuncFormatter(lambda y, _: f'{y:.0%}'))
+    ax.legend()
+
+    plt.tight_layout()
+    if save_path:
+        plt.savefig(save_path, bbox_inches='tight', dpi=150)
+    plt.show()
 
 
 # ---------------------------------------------------------------------------
