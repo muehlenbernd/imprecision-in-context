@@ -186,24 +186,40 @@ def plot_response_matrices(matrix_police, matrix_neighbor,
     plt.show()
 
 
-def plot_motives(df, save_path=None):
+def plot_motives(df, categories=None, save_path=None):
     """Plot participant motive categories by context (Table A.3).
 
     Parameters
     ----------
     df : pd.DataFrame
         Cleaned participant-level data.
+    categories : list of str, optional
+        Motive labels (from MOTIVE_LABELS) to include in the plot.
+        Labels not present in MOTIVE_LABELS are silently ignored.
+        If None, empty, or all entries are invalid, all motives are plotted.
     save_path : str, optional
         If provided, save figure to this path.
     """
+    label_to_col = dict(zip(MOTIVE_LABELS, MOTIVE_COLS))
+
+    if categories:
+        selected = [lbl for lbl in categories if lbl in label_to_col]
+    else:
+        selected = []
+
+    if not selected:
+        selected = MOTIVE_LABELS
+
+    selected_cols = [label_to_col[lbl] for lbl in selected]
+
     motive_counts = {
-        ctx: [df[df['context'] == ctx][col].notna().sum() for col in MOTIVE_COLS]
+        ctx: [df[df['context'] == ctx][col].notna().sum() for col in selected_cols]
         for ctx in ['police', 'neighbor']
     }
-    motive_df = pd.DataFrame(motive_counts, index=MOTIVE_LABELS)
+    motive_df = pd.DataFrame(motive_counts, index=selected)
 
-    fig, ax = plt.subplots(figsize=(10, 5))
-    x = np.arange(len(MOTIVE_LABELS))
+    fig, ax = plt.subplots(figsize=(max(6, len(selected) * 0.85), 5))
+    x = np.arange(len(selected))
     width = 0.38
 
     ax.bar(x - width / 2, motive_df['police'], width,
@@ -212,7 +228,7 @@ def plot_motives(df, save_path=None):
            label='Neighbor context', color='coral', alpha=0.85)
 
     ax.set_xticks(x)
-    ax.set_xticklabels(MOTIVE_LABELS, rotation=40, ha='right', fontsize=9)
+    ax.set_xticklabels(selected, rotation=40, ha='right', fontsize=9)
     ax.set_ylabel('Number of respondents')
     ax.set_title('Participant motive categories by context (Table A.3)',
                  fontweight='bold')
