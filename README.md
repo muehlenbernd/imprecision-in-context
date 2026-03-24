@@ -4,9 +4,9 @@ This repository contains data, analysis code, and a probabilistic speaker model 
 
 > Mühlenbernd, R. & Solt, S. (2022). Modeling (im)precision in context. *Linguistics Vanguard*, 8(1), 113–127. https://doi.org/10.1515/lingvan-2022-0035
 
-It accompanies the case study in:
+<!--It accompanies the case study in:
 
-> Mühlenbernd, R., Solt, S. & Sauerland, U. (in press). *[Chapter title]*. In *[Edited Volume]*.
+> Mühlenbernd, R., Solt, S. & Sauerland, U. (in press). *[Chapter title]*. In *[Edited Volume]*.-->
 
 ---
 
