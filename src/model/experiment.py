@@ -67,8 +67,7 @@ def build_imprecision_game(alpha=ALPHA):
     S = {
         's25': [25], 's26': [26], 's27': [27], 's28': [28], 's29': [29],
         's30': [30], 's31': [31], 's32': [32], 's33': [33], 's34': [34],
-        's35': [35],
-        'sIN': [26, 27, 28, 29, 30, 31, 32, 33, 34],
+        's35': [35],'sIN': [26, 27, 28, 29, 30, 31, 32, 33, 34],
     }
 
     # Utterances V
@@ -115,6 +114,19 @@ def build_imprecision_game(alpha=ALPHA):
     game.roundness_hierarchy = roundness_hierarchy
 
     return game
+
+
+# ---------------------------------------------------------------------------
+# Index mappings: full model matrix → 7×9 paper layout (Figure 2)
+# ---------------------------------------------------------------------------
+
+#: Row indices in the full S1 matrix for the 7 paper state categories
+#: s30=5, s30±1=4, s30±2=3, s30±3=2, s30±4=1, s30±5=0, sIn=11
+ROW_IDX = [5, 4, 3, 2, 1, 0, 11]
+
+#: Column indices for the 9 paper response categories
+#: v30=5, v30±1=4, v30±2=3, v30±3=2, v30±4=1, v30±5=0, vIn=11, vA30=12, vA25=13
+COL_IDX = [5, 4, 3, 2, 1, 0, 11, 12, 13]
 
 
 # ---------------------------------------------------------------------------
