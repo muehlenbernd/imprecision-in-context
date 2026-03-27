@@ -288,6 +288,104 @@ def plot_rounding_effect(ct, save_path=None):
     plt.show()
 
 
+def _plot_diff_panel(ax, diff, row_labels, col_labels, title, cmap, vmax):
+    """Draw a single difference heatmap on *ax* (helper for plot_distance_matrix)."""
+    im = ax.imshow(diff, aspect='equal', cmap=cmap, vmin=0, vmax=vmax)
+    n_rows, n_cols = diff.shape
+    for i in range(n_rows):
+        for j in range(n_cols):
+            val = diff[i, j]
+            pct = int(round(val * 100))
+            color = 'white' if val > vmax * 0.6 else 'black'
+            ax.text(j, i, str(pct), ha='center', va='center',
+                    fontsize=8, color=color)
+    ax.set_xticks(range(n_cols))
+    ax.set_xticklabels(col_labels, rotation=45, ha='right', fontsize=9)
+    ax.set_yticks(range(n_rows))
+    ax.set_yticklabels(row_labels, fontsize=9)
+    ax.set_xlabel('response expression', fontsize=10)
+    ax.set_ylabel('information state', fontsize=10)
+    ax.set_title(title, fontsize=12, fontweight='bold')
+    return im
+
+
+def plot_distance_matrix(model, title=None, save_path=None):
+    """Plot model-vs-empirical difference for both contexts side by side.
+
+    Each cell shows the absolute difference in percentage points,
+    colour-coded from green (0 pp) through yellow to red (≥50 pp).
+    The scale is fixed at 0–50 pp; differences above 50 are clipped
+    to the maximum colour.
+
+    Parameters
+    ----------
+    model : array-like or pd.DataFrame
+        Model response matrix (7×9).  Accepts either proportions (0–1)
+        or percentages (0–100); values > 1 are automatically rescaled.
+    title : str, optional
+        Figure suptitle.
+    save_path : str, optional
+        If provided, save figure to this path.
+    """
+    from model.experiment import EMPIRICAL_POLICE, EMPIRICAL_NEIGHBOR
+
+    mod = np.array(model, dtype=float)
+    if mod.max() > 1:
+        mod = mod / 100.0
+    emp_police = np.array(EMPIRICAL_POLICE, dtype=float)
+    emp_neighbor = np.array(EMPIRICAL_NEIGHBOR, dtype=float)
+
+    diff_police = np.abs(emp_police - mod)
+    diff_neighbor = np.abs(emp_neighbor - mod)
+
+    row_labels = ['s₃₀', 's₃₀±₁', 's₃₀±₂', 's₃₀±₃', 's₃₀±₄', 's₃₀±₅', 'sᵢₙ']
+    col_labels = [
+        'v₃₀', 'v₃₀±₁', 'v₃₀±₂', 'v₃₀±₃', 'v₃₀±₄',
+        'v₃₀±₅', 'vᵢₙ', 'va₃₀', 'va₃₀±₅',
+    ]
+
+    cmap = plt.cm.RdYlGn_r
+    vmax = 0.50
+
+    cell_size = 0.55
+    n_rows, n_cols = 7, 9
+    fig_w = n_cols * cell_size * 2 + 2.5
+    fig_h = n_rows * cell_size + 1.5
+
+    fig = plt.figure(figsize=(fig_w, fig_h))
+
+    left_margin = 0.08
+    right_margin = 0.88
+    gap = 0.06
+    ax_width = (right_margin - left_margin - gap) / 2
+    bottom, top = 0.18, 0.88
+    ax_height = top - bottom
+
+    ax1 = fig.add_axes([left_margin, bottom, ax_width, ax_height])
+    ax2 = fig.add_axes([left_margin + ax_width + gap, bottom,
+                        ax_width, ax_height])
+    cax = fig.add_axes([0.90, bottom, 0.02, ax_height])
+
+    _plot_diff_panel(ax1, diff_police, row_labels, col_labels,
+                     '(a) Δ police context', cmap, vmax)
+    im = _plot_diff_panel(ax2, diff_neighbor, row_labels, col_labels,
+                          '(b) Δ neighbor context', cmap, vmax)
+
+    cbar = fig.colorbar(im, cax=cax)
+    tick_vals = [0, 0.10, 0.20, 0.30, 0.40, 0.50]
+    cbar.set_ticks(tick_vals)
+    cbar.set_ticklabels([f'{v * 100:.0f}' for v in tick_vals])
+    cbar.set_label('|Δ| (percentage points)')
+
+    if title:
+        fig.suptitle(title, y=0.97, fontsize=12)
+
+    if save_path:
+        plt.savefig(save_path, bbox_inches='tight', dpi=150)
+
+    plt.show()
+
+
 # ---------------------------------------------------------------------------
 # Statistical tests
 # ---------------------------------------------------------------------------
