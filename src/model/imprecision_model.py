@@ -81,7 +81,7 @@ class ImprecisionModel:
         """
         strategy = SpeakerStrategy(self.game)
 
-        for s in self.game.S:
+        for s in self.game.S.values():
             valid = [v for v in self.game.V
                      if utils.is_subset(s, self.game.D[v])]
             prob = 1.0 / len(valid) if valid else 0.0
@@ -109,7 +109,7 @@ class ImprecisionModel:
         strategy = HearerStrategy(self.game)
 
         for v in self.game.V:
-            for s in self.game.S:
+            for s in self.game.S.values():
                 value = utils.bayes_update(self.game, s, v, speaker_strategy)
                 strategy.set_entry(v, s, value)
 
@@ -133,9 +133,9 @@ class ImprecisionModel:
         matrix = [
             [math.exp(self.lam * self.U_tot(v, s, hearer_strategy))
              for v in self.game.V]
-            for s in self.game.S
+            for s in self.game.S.values()
         ]
-        return SpeakerStrategy(self.game, matrix)
+        return SpeakerStrategy(self.game, utils.normalize_rows(matrix))
 
     def run(self):
         """Run the full inference pipeline P_S0 → P_H → P_S.
@@ -194,7 +194,7 @@ class ImprecisionModel:
         """
         return sum(
             P_H.get_entry(v, s_prime) * self.game.payoff(s, s_prime)
-            for s_prime in self.game.S
+            for s_prime in self.game.S.values()
         )
 
     def U_rnd(self, v):

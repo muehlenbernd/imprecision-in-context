@@ -124,13 +124,14 @@ def bayes_update(game, s, v, speaker_strategy):
     float
         Posterior probability P_H(s|v).
     """
+    s_values = list(game.S.values())
     denominator = sum(
-        speaker_strategy.get_entry(s2, v) * game.Pr[game.S.index(s2)]
-        for s2 in game.S
+        speaker_strategy.get_entry(s2, v) * game.Pr[s_values.index(s2)]
+        for s2 in s_values
     )
 
     if denominator > 0.0:
-        prior = game.Pr[game.S.index(s)]
+        prior = game.Pr[s_values.index(s)]
         return speaker_strategy.get_entry(s, v) * prior / denominator
     else:
         return literal_belief(game, s, v)
@@ -194,7 +195,7 @@ def literal_denotation(S, V):
 
     Parameters
     ----------
-    S : list of list of int
+    S : dict of str to list of int
         Information states.
     V : list of str
         Utterances.
@@ -204,7 +205,8 @@ def literal_denotation(S, V):
     dict
         Mapping from utterance (str) to information state (list of int).
     """
-    return {V[i]: S[i] for i in range(min(len(S), len(V)))}
+    s_values = list(S.values())
+    return {V[i]: s_values[i] for i in range(min(len(S), len(V)))}
 
 
 def is_subset(list1, list2):

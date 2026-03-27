@@ -61,14 +61,15 @@ def build_imprecision_game(alpha=ALPHA):
         Configured game object for the imprecision experiment.
     """
 
-    # Information states S: each state is a list of time points (minutes)
+    # Information states S: dict mapping label → list of time points (minutes)
     # Singleton states represent precise clock readings;
-    # the last state represents the approximate range 8:26–8:34
-    S = [
-        [25], [26], [27], [28], [29], [30],
-        [31], [32], [33], [34], [35],
-        [26, 27, 28, 29, 30, 31, 32, 33, 34]   # approximate state sᵢₙ
-    ]
+    # 'sIN' represents the approximate range 8:26–8:34
+    S = {
+        's25': [25], 's26': [26], 's27': [27], 's28': [28], 's29': [29],
+        's30': [30], 's31': [31], 's32': [32], 's33': [33], 's34': [34],
+        's35': [35],
+        'sIN': [26, 27, 28, 29, 30, 31, 32, 33, 34],
+    }
 
     # Utterances V
     # v25–v35: bare precise expressions ("It happened at 8:XX")

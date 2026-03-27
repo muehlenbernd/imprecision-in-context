@@ -16,10 +16,10 @@ class Game:
 
     Attributes
     ----------
-    S : list of list of int
-        Set of information states. Each state is a list of time points,
-        e.g. [30] for the exact value 8:30 or [26,27,...,34] for the
-        approximate range.
+    S : dict of str to list of int
+        Set of information states. Keys are string labels (e.g. 's30',
+        'sIN'); values are lists of time points, e.g. [30] for the exact
+        value 8:30 or [26,27,...,34] for the approximate range.
     V : list of str
         Set of utterances, e.g. ['v30', 'vA30', 'vIn'].
     Pr : list of float
@@ -40,7 +40,7 @@ class Game:
         """
         Parameters
         ----------
-        S : list of list of int
+        S : dict of str to list of int
             Information states.
         V : list of str
             Utterances.
@@ -61,15 +61,16 @@ class Game:
         self.Pr = Pr if Pr is not None else [1.0 / len(S)] * len(S)
 
         # Denotation: trivially true in all states by default
-        self.D = D if D is not None else {v: S for v in V}
+        all_timepoints = sorted(set(t for s in S.values() for t in s))
+        self.D = D if D is not None else {v: all_timepoints for v in V}
 
         # Costs: zero by default
         self.C = C if C is not None else [0.0] * len(V)
 
         # Payoff matrix π(s, s') via Nosofsky similarity
         self.pi = [
-            [utils.similarity(s, s_prime, alpha) for s_prime in S]
-            for s in S
+            [utils.similarity(s, s_prime, alpha) for s_prime in S.values()]
+            for s in S.values()
         ]
 
     def cost(self, v):
@@ -98,7 +99,8 @@ class Game:
         -------
         float
         """
-        return self.pi[self.S.index(s)][self.S.index(s_prime)]
+        s_values = list(self.S.values())
+        return self.pi[s_values.index(s)][s_values.index(s_prime)]
 
     def __repr__(self):
         return (

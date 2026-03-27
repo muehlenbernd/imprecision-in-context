@@ -29,16 +29,21 @@ class SpeakerStrategy:
         self.S = game.S
         self.V = game.V
         self.X = X if X is not None else [
-            [0.0] * len(game.V) for _ in game.S
+            [0.0] * len(game.V) for _ in game.S.values()
         ]
+
+    def _s_index(self, s):
+        if isinstance(s, str):
+            return list(self.S.keys()).index(s)
+        return list(self.S.values()).index(s)
 
     def get_entry(self, s, v):
         """Return P(v | s).
 
         Parameters
         ----------
-        s : list of int
-            Information state.
+        s : str or list of int
+            Information state (key like 's28' or value like [28]).
         v : str
             Utterance.
 
@@ -46,18 +51,18 @@ class SpeakerStrategy:
         -------
         float
         """
-        return self.X[self.S.index(s)][self.V.index(v)]
+        return self.X[self._s_index(s)][self.V.index(v)]
 
     def set_entry(self, s, v, value):
         """Set P(v | s) = value.
 
         Parameters
         ----------
-        s : list of int
+        s : str or list of int
         v : str
         value : float
         """
-        self.X[self.S.index(s)][self.V.index(v)] = value
+        self.X[self._s_index(s)][self.V.index(v)] = value
 
 
 class HearerStrategy:
@@ -81,6 +86,11 @@ class HearerStrategy:
             [0.0] * len(game.S) for _ in game.V
         ]
 
+    def _s_index(self, s):
+        if isinstance(s, str):
+            return list(self.S.keys()).index(s)
+        return list(self.S.values()).index(s)
+
     def get_entry(self, v, s):
         """Return P(s | v).
 
@@ -88,14 +98,14 @@ class HearerStrategy:
         ----------
         v : str
             Utterance.
-        s : list of int
-            Information state.
+        s : str or list of int
+            Information state (key like 's28' or value like [28]).
 
         Returns
         -------
         float
         """
-        return self.X[self.V.index(v)][self.S.index(s)]
+        return self.X[self.V.index(v)][self._s_index(s)]
 
     def set_entry(self, v, s, value):
         """Set P(s | v) = value.
@@ -103,7 +113,7 @@ class HearerStrategy:
         Parameters
         ----------
         v : str
-        s : list of int
+        s : str or list of int
         value : float
         """
-        self.X[self.V.index(v)][self.S.index(s)] = value
+        self.X[self.V.index(v)][self._s_index(s)] = value
