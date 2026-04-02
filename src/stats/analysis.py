@@ -135,50 +135,64 @@ def plot_matrix(matrix, title, ax):
     return im
 
 
-def plot_response_matrices(matrix_police, matrix_neighbor,
-                           title=None, save_path=None):
-    """Plot police and neighbor response matrices side by side.
+def plot_response_matrices(*matrices, labels=None, title=None, save_path=None):
+    """Plot response matrices in a grid with two columns per row.
 
     Parameters
     ----------
-    matrix_police : pd.DataFrame
-        Normalized response matrix for the police context.
-    matrix_neighbor : pd.DataFrame
-        Normalized response matrix for the neighbor context.
+    *matrices : pd.DataFrame
+        One or more normalized response matrices.
+    labels : list of str, optional
+        Subplot titles. Auto-generated as '(a)', '(b)', ... when *None*.
     title : str, optional
         Figure suptitle.
     save_path : str, optional
         If provided, save figure to this path.
     """
+    import math
+
+    n = len(matrices)
+    if n == 0:
+        return
+
+    ncols = min(n, 2)
+    nrows = math.ceil(n / 2)
+
+    if labels is None:
+        labels = [f'({chr(ord("a") + i)})' for i in range(n)]
+
     cell_size = 0.55
-    n_rows, n_cols = 7, 9
-    ax_w = n_cols * cell_size
-    ax_h = n_rows * cell_size
-    fig_w = ax_w * 2 + 2.5
-    fig_h = ax_h + 1.5
+    n_mat_rows, n_mat_cols = matrices[0].shape
+    ax_w = n_mat_cols * cell_size
+    ax_h = n_mat_rows * cell_size
 
-    fig = plt.figure(figsize=(fig_w, fig_h))
+    fig_w = ax_w * ncols + 2.5
+    row_h = ax_h + 1.5
+    fig_h = row_h * nrows + (0.5 if title else 0.0)
 
-    left_margin = 0.08
-    right_margin = 0.88
-    gap = 0.06
-    ax_width = (right_margin - left_margin - gap) / 2
-    bottom, top = 0.18, 0.88
-    ax_height = top - bottom
+    fig, axes = plt.subplots(
+        nrows, 2, figsize=(fig_w, fig_h), squeeze=False,
+        constrained_layout=True,
+    )
 
-    ax1 = fig.add_axes([left_margin, bottom, ax_width, ax_height])
-    ax2 = fig.add_axes([left_margin + ax_width + gap, bottom, ax_width, ax_height])
-    cax = fig.add_axes([0.90, bottom, 0.02, ax_height])
+    canonical_cols = list(COLLAPSED_COLS.keys())
 
-    plot_matrix(matrix_police, '(a) police context', ax1)
-    im2 = plot_matrix(matrix_neighbor, '(b) neighbor context', ax2)
+    im = None
+    for idx, (mat, lbl) in enumerate(zip(matrices, labels)):
+        r, c = divmod(idx, 2)
+        ordered = mat[[col for col in canonical_cols if col in mat.columns]]
+        im = plot_matrix(ordered, lbl, axes[r][c])
 
-    cbar = fig.colorbar(im2, cax=cax)
+    for idx in range(n, nrows * 2):
+        r, c = divmod(idx, 2)
+        axes[r][c].set_visible(False)
+
+    cbar = fig.colorbar(im, ax=axes.ravel().tolist(), shrink=0.8, pad=0.02)
     cbar.set_ticks([0, 0.2, 0.4, 0.6, 0.8, 1.0])
     cbar.set_ticklabels(['0%', '20%', '40%', '60%', '80%', '100%'])
 
     if title:
-        fig.suptitle(title, y=0.97, fontsize=12)
+        fig.suptitle(title, fontsize=12)
 
     if save_path:
         plt.savefig(save_path, bbox_inches='tight', dpi=150)
