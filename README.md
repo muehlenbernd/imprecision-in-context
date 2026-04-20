@@ -1,18 +1,31 @@
-# Modeling (Im)Precision in Context — Data, Analysis & Model
+# Modeling (Im)Precision in Context
 
-This repository contains data, analysis code, and a probabilistic speaker model for:
+[![Python](https://img.shields.io/badge/python-3.9%2B-blue)]()
+[![License: MIT](https://img.shields.io/badge/code-MIT-green)](LICENSE)
+[![Data: CC BY 4.0](https://img.shields.io/badge/data-CC%20BY%204.0-lightblue)](https://creativecommons.org/licenses/by/4.0/)
+[![DOI](https://img.shields.io/badge/DOI-10.1515%2Flingvan--2022--0035-orange)](https://doi.org/10.1515/lingvan-2022-0035)
+[![Figshare](https://img.shields.io/badge/data-Figshare-blue)](https://doi.org/10.6084/m9.figshare.21629531)
 
-> Mühlenbernd, R. & Solt, S. (2022). Modeling (im)precision in context. *Linguistics Vanguard*, 8(1), 113–127. https://doi.org/10.1515/lingvan-2022-0035
+> **A production experiment and probabilistic game-theoretic speaker model showing that communicative context shapes how precisely speakers encode numerical information.**
 
-<!--It accompanies the case study in:
+This repository contains data, analysis code, and model for the paper:
 
-> Mühlenbernd, R., Solt, S. & Sauerland, U. (in press). *[Chapter title]*. In *[Edited Volume]*.-->
+**Modeling (Im)Precision in Context**  
+Roland Mühlenbernd, Stephanie Solt  
+*Linguistics Vanguard, 8(1), 113–127, 2022*  
+[[Paper]](https://doi.org/10.1515/lingvan-2022-0035) · [[Data (Figshare)]](https://doi.org/10.6084/m9.figshare.21629531)
+
+---
+
+## Overview
+
+How precisely do speakers communicate numerical information — and does communicative context matter? We report a production experiment (N=499, Prolific) in which participants reported a witnessed accident time under two context conditions (police station vs. neighbor's party) and two information states (precise vs. approximate). Speakers round off more in the informal neighbor context than in the formal police context, robustly across information states. A probabilistic game-theoretic speaker model fitted with context-specific weights for accuracy and simplification goals reproduces these patterns.
 
 ---
 
 ## Run the Notebook
 
-**01_imprecision.ipynb** — Data analysis and probabilistic speaker model
+**`01_imprecision.ipynb`** — Data analysis and probabilistic speaker model
 
 | | |
 |---|---|
@@ -22,16 +35,49 @@ This repository contains data, analysis code, and a probabilistic speaker model 
 
 ---
 
-## Overview
+## Dataset
 
-How precisely do speakers communicate numerical information — and does context matter?
+| Property | Value |
+|----------|-------|
+| Participants | 499 (Prolific) |
+| Design | 2 (context) × 2 (information state) |
+| Task | Production — report accident time |
+| Format | `.xlsx` (raw), processed by notebook |
+| Archive | [Figshare 21629531](https://doi.org/10.6084/m9.figshare.21629531) |
+| Ethics | DGfS Ethics Committee approved; fully anonymized |
 
-In Mühlenbernd & Solt (2022), we report a production experiment in which 499 Prolific participants reported the time of a witnessed accident. The key manipulations were:
+### Key columns
 
-- **Context**: police station vs. neighbor's party
-- **Information state**: what time the participant actually saw on the clock — either a precise value within the range 8:25–8:35, or the approximate range 8:26–8:34
+| Column | Description |
+|--------|-------------|
+| `context` | `police` or `neighbor` |
+| `stateC` | Information state category (0–5, 8) |
+| `answerC` | Response category; `-1` = excluded |
+| `appxC` | Approximator term used |
+| `Precision`…`Other` | Binary motive flags |
+| `motive` | Free-text justification |
 
-The central finding: speakers round off more in the neighbor context than in the police context, and this difference is robust across information states. A probabilistic game-theoretic speaker model reproduces these patterns by fitting context-specific weights for the speaker goals of accuracy and hearer-oriented simplification.
+---
+
+## Model
+
+A probabilistic game-theoretic speaker model fitting context-specific weights for two competing speaker goals: **accuracy** and **hearer-oriented simplification**. Context (formal vs. informal) shifts the weight balance, predicting the observed precision differences.
+
+### Quick Start
+
+```bash
+git clone https://github.com/muehlenbernd/imprecision-in-context.git
+cd imprecision-in-context
+pip install -r requirements.txt
+jupyter lab
+# open notebooks/01_imprecision.ipynb
+```
+
+### Key dependencies
+
+```
+pandas>=1.5 · numpy>=1.23 · matplotlib>=3.6 · scipy>=1.9 · openpyxl>=3.0
+```
 
 ---
 
@@ -49,47 +95,11 @@ imprecision-in-context/
 │   ├── stats/
 │   │   └── analysis.py                      # Matrix construction, plotting, statistics
 │   └── model/
-│       └── imprecision_model.py             # Probabilistic speaker model (in progress)
+│       └── imprecision_model.py             # Probabilistic speaker model
 ├── figures/                                 # Generated by the notebook
 ├── README.md
 └── requirements.txt
 ```
-
----
-
-## Data
-
-The raw data (`data/raw/Participant_level_data_1_.xlsx`) is also archived at:
-
-> Figshare: https://doi.org/10.6084/m9.figshare.21629531
-
-### Key columns
-
-| Column | Description |
-|--------|-------------|
-| `context` | `police` or `neighbor` |
-| `stateC` | Information state category (0–5, 8) |
-| `answerC` | Response category; `-1` = excluded |
-| `appxC` | Approximator term used |
-| `Precision`…`Other` | Binary motive flags |
-| `motive` | Free-text justification |
-
-### Ethics
-
-Participants provided informed consent approved by the Ethics Committee of the German Linguistic Society (DGfS). Data are fully anonymized.
-
----
-
-## Getting Started (Local)
-
-```bash
-git clone https://github.com/muehlenbernd/imprecision-in-context.git
-cd imprecision-in-context
-pip install -r requirements.txt
-jupyter lab
-```
-
-Then open `notebooks/01_imprecision.ipynb`.
 
 ---
 
