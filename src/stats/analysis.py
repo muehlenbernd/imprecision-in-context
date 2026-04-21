@@ -123,15 +123,15 @@ def plot_matrix(matrix, title, ax):
             pct = int(round(val * 100))
             color = 'white' if val > 0.55 else 'black'
             ax.text(j, i, str(pct), ha='center', va='center',
-                    fontsize=8, color=color)
+                    fontsize=15, color=color)
 
     ax.set_xticks(range(len(matrix.columns)))
-    ax.set_xticklabels(matrix.columns, rotation=45, ha='right', fontsize=9)
+    ax.set_xticklabels(matrix.columns, rotation=45, ha='right', fontsize=16)
     ax.set_yticks(range(len(matrix.index)))
-    ax.set_yticklabels(matrix.index, fontsize=9)
-    ax.set_title(title, fontsize=12, fontweight='bold')
-    ax.set_xlabel('response expression', fontsize=10)
-    ax.set_ylabel('information state', fontsize=10)
+    ax.set_yticklabels(matrix.index, fontsize=16)
+    ax.set_title(title, fontsize=19, fontweight='bold', pad=14)
+    ax.set_xlabel('response expression', fontsize=17)
+    ax.set_ylabel('information state', fontsize=17)
     return im
 
 
@@ -161,19 +161,25 @@ def plot_response_matrices(*matrices, labels=None, title=None, save_path=None):
     if labels is None:
         labels = [f'({chr(ord("a") + i)})' for i in range(n)]
 
-    cell_size = 0.55
+    cell_size = 0.78
     n_mat_rows, n_mat_cols = matrices[0].shape
     ax_w = n_mat_cols * cell_size
     ax_h = n_mat_rows * cell_size
 
-    fig_w = ax_w * ncols + 2.5
-    row_h = ax_h + 1.5
-    fig_h = row_h * nrows + (0.5 if title else 0.0)
+    fig_w = ax_w * ncols + 3.2
+    row_h = ax_h + 2.0
+    fig_h = row_h * nrows + (0.3 if title else 0.0)
 
     fig, axes = plt.subplots(
         nrows, 2, figsize=(fig_w, fig_h), squeeze=False,
         constrained_layout=True,
     )
+
+    try:
+        fig.get_layout_engine().set(h_pad=0.02, w_pad=0.04,
+                                    hspace=0.02, wspace=0.03)
+    except AttributeError:
+        pass
 
     canonical_cols = list(COLLAPSED_COLS.keys())
 
@@ -187,12 +193,13 @@ def plot_response_matrices(*matrices, labels=None, title=None, save_path=None):
         r, c = divmod(idx, 2)
         axes[r][c].set_visible(False)
 
-    cbar = fig.colorbar(im, ax=axes.ravel().tolist(), shrink=0.8, pad=0.02)
+    cbar = fig.colorbar(im, ax=axes.ravel().tolist(), shrink=0.85, pad=0.02)
     cbar.set_ticks([0, 0.2, 0.4, 0.6, 0.8, 1.0])
     cbar.set_ticklabels(['0%', '20%', '40%', '60%', '80%', '100%'])
+    cbar.ax.tick_params(labelsize=15)
 
     if title:
-        fig.suptitle(title, fontsize=12)
+        fig.suptitle(title, fontsize=21, fontweight='bold', y=0.995)
 
     if save_path:
         plt.savefig(save_path, bbox_inches='tight', dpi=150)
